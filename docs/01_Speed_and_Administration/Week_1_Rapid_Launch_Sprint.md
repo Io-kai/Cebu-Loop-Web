@@ -8,6 +8,7 @@
 
 > [!TIP]
 > **Daily Sync (8:00 AM PHT)**: Brian and Joy must align on the "One Major Goal" for the day. No field work begins until this is set.
+> **Golden Hours**: Review [Team Availability](Team_Availability.md) before deploying. Tue/Thu are short days (end 2:00 PM).
 
 ---
 
@@ -20,10 +21,10 @@
 
 ## Day 2: The Bank & City Hall
 
-- [ ] **Bank Account Opening**: Open "Treasurer-in-Trust" (TITF) account at UnionBank or BPI.
+- [ ] **Bank Account Opening**: Open "Treasurer-in-Trust" (TITF) account at UnionBank or BPI. **(Go at 9:00 AM sharp)**
   - *Requirement*: Bring Articles of Incorporation (Draft) and BJ's ID.
   - *Action*: deposit the initial Paid-Up Capital (minimum 25% of subscription).
-- [ ] **Mayor's Permit**: Submit application at Cebu City Hall.
+- [ ] **Mayor's Permit**: Submit application at Cebu City Hall. **(Must use Friday if tight)**
 
 ## Day 3: The Digital Headquarters
 

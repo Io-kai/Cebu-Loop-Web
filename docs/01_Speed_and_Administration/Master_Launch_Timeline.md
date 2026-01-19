@@ -3,6 +3,9 @@
 **Start Date**: Week 1 (Immediate)
 **Target Launch**: Week 16
 
+> [!IMPORTANT]
+> **Operational Constraints**: All scheduling must adhere to the [Team Availability](Team_Availability.md) guidelines. Joy has strict hard stops due to university classes.
+
 ---
 
 ## PHASE 1: THE LEGAL SHIELD (Weeks 1-3)
@@ -35,8 +38,8 @@
 
 ### Week 4
 
-- [ ] Meeting with Ayala Center Management (Parking/Hub)
-- [ ] Meeting with MCIA (Airport) Management
+- [ ] Meeting with Ayala Center Management (Parking/Hub) **(Sched: Mon/Fri AM)**
+- [ ] Meeting with MCIA (Airport) Management **(Sched: Mon/Fri AM)**
 - [ ] Secure LOIs (Letters of Intent) from locations
 
 ### Week 5
