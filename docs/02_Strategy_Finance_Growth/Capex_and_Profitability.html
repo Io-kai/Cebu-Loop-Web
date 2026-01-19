@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebu Loop: Capex & Profitability Model (Pilot)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: right;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .negative {
+            color: #c0392b;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Capex & Profitability Model: The Pilot Fleet (5 Units)</h1>
+    <p><strong>Scenario:</strong> 5 BYD Seagulls | <strong>Initial CapEx:</strong> ₱1,750,000 (Brian) |
+        <strong>Strategy:</strong> 100% Net Profit for Repayment</p>
+
+    <div class="card">
+        <h2>1. Unit Economics (Per Car / Month)</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Amount (PHP)</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td>Gross Revenue</td>
+                <td>45,000</td>
+                <td>₱1,500/day x 30 days utilization</td>
+            </tr>
+            <tr>
+                <td>Less: Driver Allowance</td>
+                <td>(2,500)</td>
+                <td>Fixed monthly retainer</td>
+            </tr>
+            <tr>
+                <td>Less: Charging Cost</td>
+                <td>(4,500)</td>
+                <td>Est. ₱150/day (Commercial Rate)</td>
+            </tr>
+            <tr>
+                <td>Less: Maintenance Reserve</td>
+                <td>(1,000)</td>
+                <td>Tires, cleaning supplies</td>
+            </tr>
+            <tr>
+                <td>Less: Insurance Allocation</td>
+                <td>(1,200)</td>
+                <td>Comprehensive w/ AOG</td>
+            </tr>
+            <tr class="highlight">
+                <td><strong>Net Operating Profit (Per Unit)</strong></td>
+                <td><strong>35,800</strong></td>
+                <td><strong>79% Margin</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>2. Fleet Profitability (5 Cars / Month)</h2>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Monthly Total</th>
+                <th>Annual Projection</th>
+            </tr>
+            <tr>
+                <td>Gross Revenue</td>
+                <td>225,000</td>
+                <td>2,700,000</td>
+            </tr>
+            <tr>
+                <td>Total OpEx</td>
+                <td>(46,000)</td>
+                <td>(552,000)</td>
+            </tr>
+            <tr class="highlight">
+                <td><strong>Net Monthly Profit (Before Tax)</strong></td>
+                <td><strong>179,000</strong></td>
+                <td><strong>2,148,000</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>3. Loan Repayment Waterfall (To Brian)</h2>
+        <p class="note">Assumption: 100% of Net Profit is used to pay back the ₱1.75M Capex Loan until fully satisfied.
+        </p>
+        <table>
+            <tr>
+                <th>Month</th>
+                <th>Net Profit Flow</th>
+                <th>Remaining Loan Balance</th>
+            </tr>
+            <tr>
+                <td>Start</td>
+                <td>-</td>
+                <td class="negative">(1,750,000)</td>
+            </tr>
+            <tr>
+                <td>Month 1</td>
+                <td>179,000</td>
+                <td class="negative">(1,571,000)</td>
+            </tr>
+            <tr>
+                <td>Month 2</td>
+                <td>179,000</td>
+                <td class="negative">(1,392,000)</td>
+            </tr>
+            <tr>
+                <td>Month 3</td>
+                <td>179,000</td>
+                <td class="negative">(1,213,000)</td>
+            </tr>
+            <tr>
+                <td>Month 6</td>
+                <td>179,000</td>
+                <td class="negative">(676,000)</td>
+            </tr>
+            <tr>
+                <td>Month 10</td>
+                <td>179,000</td>
+                <td class="highlight"><strong>PAID IN FULL (+40,000 Surplus)</strong></td>
+            </tr>
+        </table>
+        <p><strong>Result:</strong> Brian is fully repaid in <span class="highlight">Approx. 9.8 Months</span>.</p>
+    </div>
+
+</body>
+
+</html>
