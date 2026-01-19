@@ -22,9 +22,9 @@
 
 ## FOLDER C: LOCATION ASSETS
 
-- [ ] **Contract of Lease (Office)**: Virtual Office or Condo lease allowing business use.
-- [ ] **Barangay Clearance**: For the specific business location.
-- [ ] **Occupancy Permit**: Copy from the building admin (required for Mayor's Permit).
+- [ ] **Proof of Residence (Home Office)**: Copy of Deed of Sale / Condominium Certificate of Title (CCT) for Marco Polo unit.
+- [ ] **HOA Clearance**: Certificate from Marco Polo Property Management allowing use as corporate address.
+- [ ] **Barangay Clearance**: Specific to Nivel Hills / Lahug (Residential use).
 
 ## FOLDER D: CORPORATE DRAFTS (From Brian)
 

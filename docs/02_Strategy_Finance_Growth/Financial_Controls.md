@@ -22,7 +22,14 @@
 * **Limit**: Max balance of ₱5,000 per runner for emergency charging/tolls.
 * **Top-up Rule**: Only Brian can authorize top-ups from the Main Account.
 
-## 2. The "Brian Veto" (Expenditure Limits)
+## 2. Phase 0: The "Zero-Capex" Freeze
+
+**Condition**: Effective immediately until "Phase 1" is officially triggered by Brian.
+
+* **Rule**: No expenses allowed > ₱0.
+* **Exception**: Only government regulatory fees (SEC/Barangay) are permitted. All asset purchases (Vehicles, Hardware) are **FROZEN**.
+
+## 3. The "Brian Veto" (Expenditure Limits)
 
 To prevent runway burn, the following limits are hard-coded into company policy:
 

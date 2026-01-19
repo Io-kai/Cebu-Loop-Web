@@ -15,8 +15,8 @@
 
 - [ ] **SEC Name Reservation**: Reserve "Cebu Loop Mobility Corp" via [SEC ESPARC](https://esparc.secy.gov.ph).
   - *Note*: If "Mobility" is rejected, try "Transport" or "Logistics".
-- [ ] **Barangay Clearance**: Visit Barangay Hall (Office Location) for initial clearance.
-- [ ] **Office Lease**: Sign Lease Agreement for the shared office/virtual office space for registration purposes.
+- [ ] **Barangay Clearance**: Visit Lahug Barangay Hall (for Marco Polo Address).
+- [ ] **Home Office Setup**: Designate dedicated workspace at Marco Polo. Verify internet stability.
 
 ## Day 2: The Bank & City Hall
 

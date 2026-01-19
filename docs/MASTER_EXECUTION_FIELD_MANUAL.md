@@ -1,55 +1,69 @@
 # CEBU LOOP MOBILITY CORP: MASTER EXECUTION FIELD MANUAL
 
-**Version:** 4.4 (The Definitive "Ground Up" Guide)
+**Version:** 4.5 (Capital Preservation Mode)
 **Date:** January 2026
 **Location:** Cebu City & Mactan, Philippines
 **Command Center:** Honolulu, Hawaii (Brian - UTC-10) & Cebu City (Joy - UTC+8)
 
 ---
 
-## 1. MASTER RESOURCE INDEX (THE "DAUGHTER DOCUMENTS")
+## 1. CAPITAL PRESERVATION STRATEGY (THE "ZERO-CAPEX" RULE)
+
+**Objective**: Do not spend a single peso on fixed costs until necessary.
+**Location Strategy**:
+
+* **Official Address**: Brian's Residence at **Marco Polo Residences** (Nivel Hills).
+* **Meeting Space**: Use the Marco Polo shared amenities / function rooms or hotel lobbies.
+* **Protocols**:
+  * **NO** Commercial Leasing (Virtual or Physical) until Fleet Acquisition.
+  * **NO** Lease Contracts to be signed.
+  * **NO** Capital Asset Purchases until Phase 0 is passed.
+
+---
+
+## 2. MASTER RESOURCE INDEX (THE "DAUGHTER DOCUMENTS")
 
 To execute this manual, you must refer to these specific files for templates and data:
 
 ### A. Speed & Administration
 
-- **Week 1 Sprint**: [Week_1_Rapid_Launch_Sprint.md](./01_Speed_and_Administration/Week_1_Rapid_Launch_Sprint.md) (Immediate Day 1–7 Actions)
-- **Document Prep**: [Pre_Incorporation_Checklist.md](./01_Speed_and_Administration/Pre_Incorporation_Checklist.md) (Physical folder requirements for Joy)
-- **Timeline**: [Master_Launch_Timeline.md](./01_Speed_and_Administration/Master_Launch_Timeline.md) (The full 16-week checklist)
-- **Hosting Guide**: [Hosting_Guide.md](./01_Speed_and_Administration/Hosting_Guide.md) (GitHub and Porkbun configuration)
+* **Week 1 Sprint**: [Week_1_Rapid_Launch_Sprint.md](./01_Speed_and_Administration/Week_1_Rapid_Launch_Sprint.md) (Immediate Day 1–7 Actions)
+* **Document Prep**: [Pre_Incorporation_Checklist.md](./01_Speed_and_Administration/Pre_Incorporation_Checklist.md) (Physical folder requirements for Joy)
+* **Timeline**: [Master_Launch_Timeline.md](./01_Speed_and_Administration/Master_Launch_Timeline.md) (The full 16-week checklist)
+* **Hosting Guide**: [Hosting_Guide.md](./01_Speed_and_Administration/Hosting_Guide.md) (GitHub and Porkbun configuration)
 
 ### B. Strategy, Finance & Growth
 
-- **Financials - Pilot**: [Capex_and_Profitability.html](./02_Strategy_Finance_Growth/Capex_and_Profitability.html) (Loan repayment model)
-- **Financials - Scaling**: [scaling_and_expansion.html](./02_Strategy_Finance_Growth/scaling_and_expansion.html) (Series A/B/C valuations)
-- **Investor Control**: [Financial_Controls.md](./02_Strategy_Finance_Growth/Financial_Controls.md) (Bank signatory and veto rules)
-- **Legal Terms**: [Shareholders_Agreement_Key_Terms.md](./02_Strategy_Finance_Growth/Shareholders_Agreement_Key_Terms.md) (Veto & Anti-dilution)
-- **Market Intelligence**: [competitive_landscape.md](./02_Strategy_Finance_Growth/competitive_landscape.md) (Competitive analysis vs Grab)
-- **Long-Term Strategy**: [strategic_success_roadmap.md](./02_Strategy_Finance_Growth/strategic_success_roadmap.md) (Expansion to Manila/Bali)
-- **Risk Management**: [Risk_and_Blind_Spot_Report.md](./02_Strategy_Finance_Growth/Risk_and_Blind_Spot_Report.md) (Typhoon protocols & LTO red tape)
+* **Financials - Pilot**: [Capex_and_Profitability.html](./02_Strategy_Finance_Growth/Capex_and_Profitability.html) (Loan repayment model)
+* **Financials - Scaling**: [scaling_and_expansion.html](./02_Strategy_Finance_Growth/scaling_and_expansion.html) (Series A/B/C valuations)
+* **Investor Control**: [Financial_Controls.md](./02_Strategy_Finance_Growth/Financial_Controls.md) (Bank signatory and veto rules)
+* **Legal Terms**: [Shareholders_Agreement_Key_Terms.md](./02_Strategy_Finance_Growth/Shareholders_Agreement_Key_Terms.md) (Veto & Anti-dilution)
+* **Market Intelligence**: [competitive_landscape.md](./02_Strategy_Finance_Growth/competitive_landscape.md) (Competitive analysis vs Grab)
+* **Long-Term Strategy**: [strategic_success_roadmap.md](./02_Strategy_Finance_Growth/strategic_success_roadmap.md) (Expansion to Manila/Bali)
+* **Risk Management**: [Risk_and_Blind_Spot_Report.md](./02_Strategy_Finance_Growth/Risk_and_Blind_Spot_Report.md) (Typhoon protocols & LTO red tape)
 
 ### C. Outreach & Hiring Templates
 
-- **Legal**: [Email_Attorney_Meeting.md](./03_Outreach_Hiring/Email_Attorney_Meeting.md)
-- **Fleet**: [Email_BYD_Fleet.md](./03_Outreach_Hiring/Email_BYD_Fleet.md) & [Call_Script_BYD_Cebu.md](./03_Outreach_Hiring/Call_Script_BYD_Cebu.md)
-- **Malls**: [Email_Mall_Leasing.md](./03_Outreach_Hiring/Email_Mall_Leasing.md)
-- **Utilities**: [Email_VECO_Partnership.md](./03_Outreach_Hiring/Email_VECO_Partnership.md)
-- **Government**: [Call_Script_LTFRB.md](./03_Outreach_Hiring/Call_Script_LTFRB.md)
-- **Networking**: [Email_Chamber_CCCI.md](./03_Outreach_Hiring/Email_Chamber_CCCI.md)
-- **Tech**: [Email_Software_Vendor.md](./03_Outreach_Hiring/Email_Software_Vendor.md)
-- **B2B Sales**: [Email_Hospital_HR.md](./03_Outreach_Hiring/Email_Hospital_HR.md)
-- **Hiring**: [Job_Posting_Fleet_Runner.md](./03_Outreach_Hiring/Job_Posting_Fleet_Runner.md) (The Mynimo/Facebook template)
-- **Contacts**: [Master_Contact_Directory.md](./03_Outreach_Hiring/Master_Contact_Directory.md) (Key phone numbers and emails)
+* **Legal**: [Email_Attorney_Meeting.md](./03_Outreach_Hiring/Email_Attorney_Meeting.md)
+* **Fleet**: [Email_BYD_Fleet.md](./03_Outreach_Hiring/Email_BYD_Fleet.md) & [Call_Script_BYD_Cebu.md](./03_Outreach_Hiring/Call_Script_BYD_Cebu.md)
+* **Malls**: [Email_Mall_Leasing.md](./03_Outreach_Hiring/Email_Mall_Leasing.md)
+* **Utilities**: [Email_VECO_Partnership.md](./03_Outreach_Hiring/Email_VECO_Partnership.md)
+* **Government**: [Call_Script_LTFRB.md](./03_Outreach_Hiring/Call_Script_LTFRB.md)
+* **Networking**: [Email_Chamber_CCCI.md](./03_Outreach_Hiring/Email_Chamber_CCCI.md)
+* **Tech**: [Email_Software_Vendor.md](./03_Outreach_Hiring/Email_Software_Vendor.md)
+* **B2B Sales**: [Email_Hospital_HR.md](./03_Outreach_Hiring/Email_Hospital_HR.md)
+* **Hiring**: [Job_Posting_Fleet_Runner.md](./03_Outreach_Hiring/Job_Posting_Fleet_Runner.md) (The Mynimo/Facebook template)
+* **Contacts**: [Master_Contact_Directory.md](./03_Outreach_Hiring/Master_Contact_Directory.md) (Key phone numbers and emails)
 
 ### D. Brand & Digital Assets
 
-- **Visuals**: [cebu_loop_logo.html](./04_Brand_Digital_Assets/cebu_loop_logo.html) (Animated Infinity SVG Assets)
-- **Website**: [index.html](../../index.html) (Corporate Landing Page)
-- **Pricing**: [Charging_and_Pricing_Strategy.md](./04_Brand_Digital_Assets/Charging_and_Pricing_Strategy.md) (Fees and Incentives)
+* **Visuals**: [cebu_loop_logo.html](./04_Brand_Digital_Assets/cebu_loop_logo.html) (Animated Infinity SVG Assets)
+* **Website**: [index.html](../../index.html) (Corporate Landing Page)
+* **Pricing**: [Charging_and_Pricing_Strategy.md](./04_Brand_Digital_Assets/Charging_and_Pricing_Strategy.md) (Fees and Incentives)
 
 ---
 
-## 2. THE REMOTE COMMAND PROTOCOL (HAWAII <-> CEBU)
+## 3. THE REMOTE COMMAND PROTOCOL (HAWAII <-> CEBU)
 
 The 18-hour time difference creates a "Follow-the-Sun" management style.
 
@@ -66,52 +80,60 @@ Joy works 8:00 AM – 3:00 PM Cebu (PHT). Brian is awake and active in Hawaii 2:
 
 ### B. Command Rules
 
-- **Receipts**: No receipt, no reimbursement. Photos must be uploaded to Google Drive instantly.
-- **Signatories**: Brian is the Sole Signatory. All PH banking transactions must be cleared before 3:00 PM PHT.
-- **Viber Ops**: Use a dedicated "Cebu Loop Ops" Viber group for all live field updates.
+* **Receipts**: No receipt, no reimbursement. Photos must be uploaded to Google Drive instantly.
+* **Signatories**: Brian is the Sole Signatory. All PH banking transactions must be cleared before 3:00 PM PHT.
+* **Viber Ops**: Use a dedicated "Cebu Loop Ops" Viber group for all live field updates.
 
 ---
 
-## 3. THE 16-WEEK LAUNCH ROADMAP
+## 4. THE 16-WEEK LAUNCH ROADMAP
 
 Follow the detailed steps in [Master_Launch_Timeline.md](./01_Speed_and_Administration/Master_Launch_Timeline.md).
 
+### PHASE 0: THE REVIEW & PRESERVATION PHASE (Current State)
+
+**Goal:** Verify all documents and legal paths before spending capital.
+* **Action**: Review all "Daughter Documents" in this manual.
+* **Action**: Attorney Meeting (Consultation Only). No Retainer yet.
+* **Action**: Verify **Marco Polo Residences** allows use as corporate address (HOA Clearance).
+
 ### PHASE 1: THE LEGAL SHIELD (Weeks 1-3)
 
-- **Action**: Incorporate as Cebu Loop Mobility Corp.
-- **Action**: Secure the Shareholders' Agreement (SHA) as per [Shareholders_Agreement_Key_Terms.md](./02_Strategy_Finance_Growth/Shareholders_Agreement_Key_Terms.md).
-- **Gate**: Brian must be established as Sole Signatory on the Corporate Bank Account before asset purchase.
+**Trigger**: Only after Phase 0 is Green-lit.
+* **Action**: Incorporate as Cebu Loop Mobility Corp using **Home Office Address**.
+* **Action**: Secure the Shareholders' Agreement (SHA) as per [Shareholders_Agreement_Key_Terms.md](./02_Strategy_Finance_Growth/Shareholders_Agreement_Key_Terms.md).
+* **Gate**: Brian must be established as Sole Signatory on the Corporate Bank Account before asset purchase.
 
 ### PHASE 2: THE "PAPER HUB" (Weeks 4-6)
 
 - **Action**: Secure LOIs from Ayala Center and MCIA (Airport).
-- **Action**: Finalize Software vendor (RentCentric/Navotar) using [Email_Software_Vendor.md](./03_Outreach_Hiring/Email_Software_Vendor.md).
+* **Action**: Finalize Software vendor (RentCentric/Navotar) using [Email_Software_Vendor.md](./03_Outreach_Hiring/Email_Software_Vendor.md).
 
 ### PHASE 3: ASSET COMMITMENT (Weeks 7-10)
 
 - **Action**: Pay 20% down payment for 5 BYD Seagull units.
-- **Action**: Install Teltonika Hardware.
-- **Action**: File for LTFRB Provisional Authority (PA).
+* **Action**: Install Teltonika Hardware.
+* **Action**: File for LTFRB Provisional Authority (PA).
 
 ### PHASE 4: INTEGRATION & LAUNCH (Weeks 11-16)
 
 - **Action**: Wrap vehicles and hire Fleet Runner via [Job_Posting_Fleet_Runner.md](./03_Outreach_Hiring/Job_Posting_Fleet_Runner.md).
-- **Action**: Soft Launch Friends/Family testing.
+* **Action**: Soft Launch Friends/Family testing.
 
 ---
 
-## 4. GRANULAR FLEET OPERATIONS
+## 5. GRANULAR FLEET OPERATIONS
 
 ### A. The Fleet Runner Logistics
 
 - **Motorcycle**: The Runner uses their own motorcycle (125cc+). The company pays a ₱2,500/mo Rider Allowance + fuel.
-- **Uniform**:
-  - Front: "Cebu Loop Crew" Logo.
-  - Back: Large QR Code ("Scan to Drive Me") for mobile marketing during cleaning sessions.
-- **The Field Kit**:
-  - **Vacuum**: Cordless Heavy Duty (e.g., Black+Decker Pivot). Runner carries two charged batteries.
-  - **Sanitization**: Handheld UVC-C Wand + 70% Isopropyl Alcohol.
-  - **Admin App**: Real-time SoC (State of Charge) and GPS monitoring.
+* **Uniform**:
+  * Front: "Cebu Loop Crew" Logo.
+  * Back: Large QR Code ("Scan to Drive Me") for mobile marketing during cleaning sessions.
+* **The Field Kit**:
+  * **Vacuum**: Cordless Heavy Duty (e.g., Black+Decker Pivot). Runner carries two charged batteries.
+  * **Sanitization**: Handheld UVC-C Wand + 70% Isopropyl Alcohol.
+  * **Admin App**: Real-time SoC (State of Charge) and GPS monitoring.
 
 ### B. The "5-Star Clean" Protocol
 
@@ -137,18 +159,18 @@ Follow the detailed steps in [Master_Launch_Timeline.md](./01_Speed_and_Administ
 
 ---
 
-## 5. RISK & EMERGENCY PROTOCOLS
+## 6. RISK & EMERGENCY PROTOCOLS
 
 Refer to [Risk_and_Blind_Spot_Report.md](./02_Strategy_Finance_Growth/Risk_and_Blind_Spot_Report.md).
 
-- **Typhoon**: Move cars to Ayala Level 5 or Marco Polo Covered Parking at Signal No. 1.
-- **Asset Theft**: Brian triggers Remote Cut-Off via Teltonika Dashboard from Hawaii. Joy coordinates with CCPO for recovery.
-- **App Crash**: Brian uses raw SMS commands (SETPARAM 1) to pop locks manually for customers.
+* **Typhoon**: Move cars to Ayala Level 5 or Marco Polo Covered Parking at Signal No. 1.
+* **Asset Theft**: Brian triggers Remote Cut-Off via Teltonika Dashboard from Hawaii. Joy coordinates with CCPO for recovery.
+* **App Crash**: Brian uses raw SMS commands (SETPARAM 1) to pop locks manually for customers.
 
 ---
 
-## 6. FINANCIAL GATES (THE "BRIAN VETO")
+## 7. FINANCIAL GATES (THE "BRIAN VETO")
 
-- **Signatory**: Brian Shukri (Treasurer) is the only authorized signatory.
-- **Threshold**: Any expense > ₱10,000 requires Brian's digital approval.
-- **Payback**: 100% of net profits flow to Brian until the ₱1.7M loan is satisfied as per [Financial_Controls.md](./02_Strategy_Finance_Growth/Financial_Controls.md).
+* **Signatory**: Brian Shukri (Treasurer) is the only authorized signatory.
+* **Threshold**: Any expense > ₱10,000 requires Brian's digital approval.
+* **Payback**: 100% of net profits flow to Brian until the ₱1.7M loan is satisfied as per [Financial_Controls.md](./02_Strategy_Finance_Growth/Financial_Controls.md).
