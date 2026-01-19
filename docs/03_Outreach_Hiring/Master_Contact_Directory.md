@@ -8,6 +8,7 @@
 | **Legal** | ACCRALAW Cebu | (032) 231-4223 (<info@accralaw.com>) |
 | **Leasing** | Ayala Land Malls | (032) 415-8489 (<strategic.leasing@ayalalandoffices.com.ph>) |
 | **Leasing** | MCIA (Airport) | (032) 494-7000 |
+| **Office (Home)** | Marco Polo Admin | (032) 234-8188 |
 | **Utility** | VECO | <info@vecocorp.com> |
 | **Software** | RentCentric | <sales@rentcentric.com> |
 | **Regulator** | LTFRB Region 7 | (032) 231-7466 |

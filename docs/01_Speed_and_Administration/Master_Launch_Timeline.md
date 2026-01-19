@@ -12,7 +12,7 @@
 ### Week 1
 
 - [ ] Name Verification (SEC)
-- [ ] Office Lease Signed
+- [ ] Home Office Setup (Marco Polo)
 - [ ] Bank Account Opened (TITF)
 
 ### Week 2
