@@ -22,6 +22,7 @@
 
 - [ ] Draft Articles of Incorporation & By-Laws
 - [ ] Circulate SHA (Shareholders Agreement) for signature
+- [ ] **LEGAL CHECK**: Optional Review of SHA if complex vesting is needed.
 - [ ] Submit Documents to SEC
 
 ### Week 3
