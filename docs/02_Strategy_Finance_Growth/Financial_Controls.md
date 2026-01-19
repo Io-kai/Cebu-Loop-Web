@@ -14,6 +14,7 @@
 * **Signatories**:
   * **Sole Signatory**: Brian Shukri (Digital Approval via Token/App)
   * **View-Only Access**: Joy (For bookkeeping and preparation)
+* **Workflow**: Joy prepares all payments (RFPs) in the app by 12:00 PM PHT. Brian receives a push notification, reviews the uploaded receipt in Drive, and executes the approval by 3:00 PM PHT.
 
 ### Secondary Account (Petty Cash Cards)
 

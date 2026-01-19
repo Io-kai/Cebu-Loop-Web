@@ -30,6 +30,7 @@ We avoid the traffic-choked inner city streets where Grab gets stuck. We focus o
 
 * **Why?**: EVs are most efficient in stop-and-go but shine on the expressway (smooth ride).
 * **The Bridge**: We can cross the CCLEX bridge cheaper and faster (RFID ready).
+* **Granular Edge**: Grab drivers often avoid CCLEX to save on tolls; we mandate it for a premium, 15-minute saved travel time.
 
 ## 4. Threat Response
 

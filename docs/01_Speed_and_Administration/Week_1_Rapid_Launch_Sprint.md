@@ -1,8 +1,13 @@
 # Week 1 Sprint: The Rapid Launch Protocol (Days 1–7)
 
+[← Back to Master Manual](../MASTER_EXECUTION_FIELD_MANUAL.md)
+
 **Goal**: Establish legal footing and physical presence immediately.
 **Owner**: Joy (Cebu City)
 **Support**: Brian (Hawaii - Remote)
+
+> [!TIP]
+> **Daily Sync (8:00 AM PHT)**: Brian and Joy must align on the "One Major Goal" for the day. No field work begins until this is set.
 
 ---
 
