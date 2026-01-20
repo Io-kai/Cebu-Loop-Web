@@ -1,0 +1,50 @@
+327	OPEN	Insurance Upgrade: Secure PPAI (Passenger Personal Accident Insurance ₱4M/unit)	status:backlog	2026-01-20T09:14:05Z
+326	OPEN	LTFRB Application: Receive Provisional Authority	status:backlog	2026-01-20T09:14:02Z
+325	OPEN	LTFRB Application: Attend Hearing	status:backlog	2026-01-20T09:13:59Z
+324	OPEN	LTFRB Application: Mention "EVIDA Law RA 11697" for EV priority	status:backlog	2026-01-20T09:13:56Z
+323	OPEN	LTFRB Application: Submit PA at LTFRB Region 7	status:backlog	2026-01-20T09:13:53Z
+322	OPEN	LTFRB Application: Compile PA Payload (SEC, BIR, Bank Cert, Garage, Insurance)	status:backlog	2026-01-20T09:13:51Z
+321	OPEN	Prerequisites: Hired/contracted drivers	status:backlog	2026-01-20T09:13:47Z
+320	OPEN	Prerequisites: Customer demand for driver option	status:backlog	2026-01-20T09:13:43Z
+319	OPEN	Prerequisites: Profitable self-drive operations	status:backlog	2026-01-20T09:13:40Z
+318	OPEN	Week 7: Pickup & Setup: Event: GRAND LAUNCH (Go Live)	phase:4-launch	2026-01-20T09:13:37Z
+317	OPEN	Week 7: Pickup & Setup: Event: SOFT LAUNCH (Invite-only beta)	phase:4-launch	2026-01-20T09:13:34Z
+316	OPEN	Action: Setup Payment Processing (GCash, Maya, Card)	phase:4-launch	2026-01-20T09:13:31Z
+315	OPEN	Action: Finalize Rental Terms & Waivers	phase:4-launch	2026-01-20T09:13:28Z
+314	OPEN	Week 7: Pickup & Setup: App/Booking System Testing	phase:3-assets	2026-01-20T09:13:25Z
+313	OPEN	Week 7: Pickup & Setup: Car Wrapping (Branding)	phase:3-assets	2026-01-20T09:13:23Z
+312	OPEN	Week 7: Pickup & Setup: Pickup 5 BYD Seagull Units	phase:3-assets	2026-01-20T09:13:19Z
+311	OPEN	Week 6: LTO Registration: Install GPS & IoT Sims	phase:3-assets	2026-01-20T09:13:16Z
+310	OPEN	Field: Register Vehicles "For Hire" at LTO	phase:3-assets	2026-01-20T09:13:13Z
+309	OPEN	Week 5: Order Fleet: Order GPS Trackers (Teltonika)	phase:3-assets	2026-01-20T09:13:10Z
+308	OPEN	Week 5: Order Fleet: Joy pays BYD Dealership - Order 5 Units	phase:3-assets	2026-01-20T09:13:07Z
+307	OPEN	Week 5: Order Fleet: Brian wires 20% Downpayment	phase:3-assets	2026-01-20T09:13:04Z
+306	OPEN	Action: Secure Parking/Garage Contract	phase:2-paper-hub	2026-01-20T09:13:00Z
+305	OPEN	Action: Secure Vehicle Insurance (Comprehensive + Third-Party)	phase:2-paper-hub	2026-01-20T09:12:57Z
+304	OPEN	Field: Bank Conversion (TITF → Corporate Checking)	phase:2-paper-hub	2026-01-20T09:12:53Z
+303	OPEN	Action: Finalize Rental Contract (with attorney review)	phase:2-paper-hub	2026-01-20T09:12:50Z
+302	OPEN	Field: Mayor's Permit (City Hall)	phase:2-paper-hub	2026-01-20T09:12:46Z
+301	OPEN	Field: BIR Registration → COR 2303	phase:2-paper-hub	2026-01-20T09:12:43Z
+300	OPEN	Week 2: SEC Release: Receive Certificate of Incorporation	phase:2-paper-hub	2026-01-20T09:12:40Z
+299	OPEN	Week 2: SEC Release: Pay SEC Fees	phase:2-paper-hub	2026-01-20T09:12:37Z
+298	OPEN	Week 2: SEC Release: Monitor email for SEC Payment Assessment	phase:2-paper-hub	2026-01-20T09:12:33Z
+297	OPEN	Action: Attorney Consultation (If not done in Phase 0)	phase:1-legal-shield	2026-01-20T09:12:30Z
+296	OPEN	Field: Asset Scouting (BYD Quote + Parking)	phase:1-legal-shield	2026-01-20T09:12:27Z
+295	OPEN	Online: Finalize SEC Application	phase:1-legal-shield	2026-01-20T09:12:24Z
+294	OPEN	Action: Notarize Treasurer's Affidavit	phase:1-legal-shield	2026-01-20T09:12:21Z
+293	OPEN	Field: Secure Bank Certificate	phase:1-legal-shield	2026-01-20T09:12:18Z
+292	OPEN	Remote: Confirm Wire Receipt (24-48 hrs)	phase:1-legal-shield	2026-01-20T09:12:15Z
+291	OPEN	Remote: Wire Paid-Up Capital	phase:1-legal-shield	2026-01-20T09:12:12Z
+290	OPEN	Field: Open TITF Savings Account (UnionBank)	phase:1-legal-shield	2026-01-20T09:12:09Z
+289	OPEN	Remote: Verify Capital Readiness (₱625k)	phase:1-legal-shield	2026-01-20T09:12:06Z
+288	OPEN	Field: Secure Barangay Clearance	phase:1-legal-shield	2026-01-20T09:12:02Z
+287	OPEN	Action: Register Company Name (SEC ESPARC)	phase:1-legal-shield	2026-01-20T09:11:59Z
+286	OPEN	Step 3: Photocopy & Print: Print Location Docs: Virtual Office Contract x3	phase:0-bag-builder	2026-01-20T09:11:55Z
+285	OPEN	Step 3: Photocopy & Print: Print Investor Docs: Brian Passport x5, Signature Sheet x5	phase:0-bag-builder	2026-01-20T09:11:52Z
+284	OPEN	Step 3: Photocopy & Print: Photocopy Personal Docs: Passport x5, TIN x3	phase:0-bag-builder	2026-01-20T09:11:49Z
+283	OPEN	Action: Schedule Attorney Consultation	phase:0-bag-builder	2026-01-20T09:11:46Z
+282	OPEN	Step 2B: Obtain New Documents: Community Tax Certificate (Cedula)	phase:0-bag-builder	2026-01-20T09:11:42Z
+281	OPEN	Step 2B: Obtain New Documents: Professional ID Photos (10x 1x1, 10x 2x2)	phase:0-bag-builder	2026-01-20T09:11:39Z
+280	OPEN	Step 2B: Obtain New Documents: Secure Virtual Office Contract (₱500-1500/month)	phase:0-bag-builder	2026-01-20T09:11:36Z
+279	OPEN	Step 2A: Verify Pre-Existing Documents: Pre-Flight Document Check	phase:0-bag-builder	2026-01-20T09:11:32Z
+278	OPEN	Action: Buy Logistics (Envelopes, Pens, Clips)	phase:0-bag-builder	2026-01-20T09:11:29Z
