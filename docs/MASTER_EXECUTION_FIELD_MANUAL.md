@@ -12,7 +12,7 @@
 > **STRATEGY**: Launch with **self-drive only** (customer drives, no driver provided). This **eliminates LTFRB franchise requirements** and allows launch in **6-8 weeks**.
 
 | Phase | Model | LTFRB Required? |
-|-------|-------|-----------------|
+|-------|-------|--------------------|
 | **Launch (Now)** | Self-Drive Only | ❌ NO |
 | **Expansion (Later)** | Add Driver Option | ✅ YES (See Phase 5) |
 
@@ -72,6 +72,7 @@
 #### Step 2C: Legal Consultation ⚖️
 
 * **[ ] Action: Schedule Attorney Consultation**:
+  * [View Attorney Meeting Email Template](viewer.html?doc=03_Outreach_Hiring/Email_Attorney_Meeting.md)
   * Purpose: Verify self-drive model compliance
   * Questions to ask:
     * Confirm no LTFRB needed for self-drive
@@ -115,6 +116,8 @@
 #### DAY 5: Friday
 
 * **[ ] Field: Asset Scouting** (BYD Quote + Parking)
+  * [Use BYD Cebu Call Script](viewer.html?doc=03_Outreach_Hiring/Call_Script_BYD_Cebu.md)
+  * [Use BYD Fleet Email](viewer.html?doc=03_Outreach_Hiring/Email_BYD_Fleet.md)
 * **[ ] Action: Attorney Consultation** (If not done in Phase 0)
 
 ---
@@ -138,8 +141,9 @@
 #### Week 4: Corporate Account + Insurance
 
 * [ ] **Field: Bank Conversion** (TITF → Corporate Checking)
-* [ ] **Action: Secure Vehicle Insurance** (See Section 5A for Template)
+* [ ] **Action: Secure Vehicle Insurance** ([Use Insurance RFQ Template](viewer.html?doc=templates/email_insurance_rfq.md))
 * [ ] **Action: Secure Parking/Garage Contract**
+  * [Use Mall Leasing Email](viewer.html?doc=03_Outreach_Hiring/Email_Mall_Leasing.md)
 
 ---
 
@@ -150,6 +154,7 @@
 * [ ] Brian wires 20% Downpayment
 * [ ] Joy pays BYD Dealership - Order 5 Units
 * [ ] Order GPS Trackers (Teltonika)
+* [ ] **Hire Fleet Runner** - [View Job Posting](viewer.html?doc=03_Outreach_Hiring/Job_Posting_Fleet_Runner.md)
 
 #### Week 6: LTO Registration
 
@@ -163,6 +168,7 @@
 * [ ] Pickup 5 BYD Seagull Units
 * [ ] Car Wrapping (Branding)
 * [ ] App/Booking System Testing
+  * [Use Software Vendor Email](viewer.html?doc=03_Outreach_Hiring/Email_Software_Vendor.md)
 
 ---
 
@@ -170,6 +176,10 @@
 
 * [ ] **Action: Finalize Rental Terms & Waivers**
 * [ ] **Action: Setup Payment Processing** (GCash, Maya, Card)
+* [ ] **Outreach: Partner with Hotels & Hospitals**
+  * [Hospital HR Email Template](viewer.html?doc=03_Outreach_Hiring/Email_Hospital_HR.md)
+* [ ] **Outreach: Chamber of Commerce**
+  * [CCCI Email Template](viewer.html?doc=03_Outreach_Hiring/Email_Chamber_CCCI.md)
 * [ ] **Event: SOFT LAUNCH** (Invite-only beta)
 * [ ] **Event: GRAND LAUNCH** (Go Live)
 
@@ -183,6 +193,7 @@
 
 * [ ] Compile PA Payload (SEC, BIR, Bank Cert, Garage, Insurance)
 * [ ] Submit PA at LTFRB Region 7 (EVIDA Priority)
+  * [Use LTFRB Call Script](viewer.html?doc=03_Outreach_Hiring/Call_Script_LTFRB.md)
 * [ ] Receive Provisional Authority
 
 ---
@@ -194,22 +205,7 @@
 **To**: Malayan, Standard Insurance, Prudential, Mercantile
 **Subject**: RFQ: Comprehensive Insurance for Car Rental Fleet (BYD Seagull)
 
-> Dear [Name/Company],
->
-> I am writing on behalf of **Cebu Loop Mobility Corp.** We are acquiring a fleet of **5 units of BYD Seagull (2025 Model)** for our self-drive car rental operations in Cebu City.
->
-> We request a formal quotation for **Comprehensive Motor Vehicle Insurance** with the following inclusion:
->
-> * **Own Damage & Theft**: Full coverage
-> * **Acts of Nature (AON)**: Inclusion required
-> * **Passenger Personal Accident Insurance (PPAI)**: Minimum ₱200k per seat
-> * **Third Party Liability (CTPL)**: Required
->
-> Please provide your best fleet rate for 5 units.
->
-> Regards,
-> Joy
-> Cebu Loop Mobility Corp.
+[Download Email Template](viewer.html?doc=templates/email_insurance_rfq.md)
 
 ---
 
@@ -224,28 +220,27 @@
 
 > **⚠️ WARNING**: Do NOT use Alcohol or Bleach on vehicle interiors (dashboard, leather, buttons). It destroys the UV coating.
 
-1. **Vacuum**: 2 minutes. Floor mats and seats.
-2. **Disinfect (Surface)**: Use **UVC Wand** for 15 seconds over steering wheel, gear shifter, and door handles.
-3. **Wipe (Stains)**: Use **Microfiber Cloth** with:
-    * Mild soapy water (Drop of dish soap in water spray)
-    * OR dedicated "Interior Car Cleaner" (e.g., Microtex)
-    * *Baby Wipes* are acceptable for quick spot cleaning.
-4. **Plug**: Connect AC Charger.
+[View Cleaning Checklist](viewer.html?doc=templates/checklist_cleaning.md)
 
 ### C. Vehicle Release Protocol
 
-1. **Verify ID**: Check Physical Driver's License (No photo copies).
-2. **Photo Evidence**: Take photo of Client holding License next to car.
-3. **Walkaround**: Record 30-sec video walking around car *with* client, pointing out existing scratches.
-4. **Waiver**: Client signs digital liability waiver.
+[View Release Protocol](viewer.html?doc=templates/protocol_release.md)
 
 ### D. Emergency Response
 
-* **Accident**:
-    1. Ensure safety. Call 911 if injured.
-    2. Driver must take photos of damage + Third party involved.
-    3. Call Joy immediately. Joy calls Insurance.
-* **Theft**:
-    1. Call Joy.
-    2. Joy tracks GPS position (Teltonika).
-    3. Brian triggers **Remote Engine Kill**.
+[View Emergency Protocol](viewer.html?doc=templates/protocol_emergency.md)
+
+---
+
+## 7. STRATEGIC PARTNERSHIPS
+
+### VECO Infrastructure Partnership
+
+[Use VECO Partnership Email](viewer.html?doc=03_Outreach_Hiring/Email_VECO_Partnership.md)
+
+---
+
+## 8. REFERENCE MATERIALS
+
+* [Master Contact Directory](viewer.html?doc=03_Outreach_Hiring/Master_Contact_Directory.md)
+* [Critical Decisions Log](viewer.html?doc=CRITICAL_DECISIONS_LOG.md)

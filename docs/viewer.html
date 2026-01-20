@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebu Loop | Document Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .prose {
+            max-width: none;
+        }
+
+        .prose h1 {
+            color: #3b82f6;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .prose h2 {
+            color: #cbd5e1;
+            margin-top: 2em;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 0.5em;
+        }
+
+        .prose h3 {
+            color: #94a3b8;
+            margin-top: 1.5em;
+        }
+
+        .prose a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        .prose ul {
+            list-style-type: disc;
+            padding-left: 1.5em;
+            margin-bottom: 1em;
+        }
+
+        .prose ol {
+            list-style-type: decimal;
+            padding-left: 1.5em;
+            margin-bottom: 1em;
+        }
+
+        .prose p {
+            margin-bottom: 1em;
+            line-height: 1.7;
+            color: #cbd5e1;
+        }
+
+        .prose strong {
+            color: #fff;
+        }
+
+        .prose blockquote {
+            border-left: 4px solid #3b82f6;
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #94a3b8;
+        }
+
+        .prose code {
+            background: #1e293b;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+
+        .prose pre {
+            background: #1e293b;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body class="bg-[#0f172a] text-slate-300 min-h-screen">
+    <div class="max-w-4xl mx-auto px-8 py-12">
+        <!-- Header -->
+        <div class="mb-8 flex items-center justify-between border-b border-slate-700 pb-4">
+            <div class="flex items-center gap-3">
+                <svg width="32" height="24" viewBox="0 0 180 120" fill="none">
+                    <path
+                        d="M30 60 C30 30, 70 30, 90 60 C110 90, 150 90, 150 60 C150 30, 110 30, 90 60 C70 90, 30 90, 30 60 Z"
+                        stroke="#3b82f6" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="font-bold text-white text-xl tracking-tight">CEBU<span
+                        class="text-blue-500">LOOP</span></span>
+            </div>
+            <a href="index.html" class="text-sm text-blue-500 hover:text-blue-400 flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Back to Dashboard
+            </a>
+        </div>
+
+        <!-- Content -->
+        <div id="doc-content" class="prose prose-invert prose-lg">
+            <div class="flex items-center justify-center h-64 text-slate-500">
+                <i class="fa-solid fa-circle-notch fa-spin text-3xl mr-3"></i> Loading Document...
+            </div>
+        </div>
+
+        <!-- Copy Button -->
+        <div class="mt-8 flex justify-end">
+            <button onclick="copyContent()"
+                class="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg flex items-center gap-2 transition-all">
+                <i class="fa-solid fa-copy"></i> Copy Content
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Get document path from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const docPath = urlParams.get('doc');
+
+        if (!docPath) {
+            document.getElementById('doc-content').innerHTML = `
+                <div class="text-center text-red-400">
+                    <i class="fa-solid fa-exclamation-triangle text-4xl mb-4"></i>
+                    <p>No document specified. Please provide a 'doc' parameter.</p>
+                </div>
+            `;
+        } else {
+            // Load and render the markdown file
+            fetch(docPath)
+                .then(response => {
+                    if (!response.ok) throw new Error('Document not found');
+                    return response.text();
+                })
+                .then(markdown => {
+                    document.getElementById('doc-content').innerHTML = marked.parse(markdown);
+                    // Update page title
+                    const h1 = document.querySelector('#doc-content h1');
+                    if (h1) document.title = `${h1.textContent} | Cebu Loop`;
+                })
+                .catch(error => {
+                    document.getElementById('doc-content').innerHTML = `
+                        <div class="text-center text-red-400">
+                            <i class="fa-solid fa-exclamation-triangle text-4xl mb-4"></i>
+                            <p>Error loading document: ${error.message}</p>
+                            <p class="text-sm text-slate-500 mt-2">Path: ${docPath}</p>
+                        </div>
+                    `;
+                });
+        }
+
+        // Copy content to clipboard
+        function copyContent() {
+            const content = document.getElementById('doc-content');
+            const range = document.createRange();
+            range.selectNode(content);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+
+            // Visual feedback
+            const btn = event.target.closest('button');
+            const originalHTML = btn.innerHTML;
+            btn.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+            btn.classList.add('bg-green-600');
+            setTimeout(() => {
+                btn.innerHTML = originalHTML;
+                btn.classList.remove('bg-green-600');
+            }, 2000);
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+
+</html>
