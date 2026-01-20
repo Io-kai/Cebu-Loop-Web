@@ -70,6 +70,7 @@ Joy works 8:00 AM – 3:00 PM Cebu (PHT). Brian is awake and active in Hawaii 2:
 Joy must have these distinct folders ready in a physical bag at all times.
 
 **FOLDER A: PERSONAL IDENTITY (Originals + 3 Photocopies)**
+
 * [ ] **Valid Government IDs (Joy)**: Passport, UMID, or Driver’s License.
 * [ ] **TIN ID / Verification Slip**: Must be verified with BIR.
 * [ ] **Proof of Billing**: Meralco/VECO or Water bill matching your residence address.
@@ -77,16 +78,19 @@ Joy must have these distinct folders ready in a physical bag at all times.
 * [ ] **Community Tax Certificate (Cedula)**: Current year. Buy at City Hall or Barangay.
 
 **FOLDER B: INVESTOR DATA (Brian & Third Parties)**
+
 * [ ] **Passport Copy**: Clear color scan of Bio-page (Apostilled if signed abroad).
 * [ ] **TIN (Foreign)**: If Brian has a PH TIN. If not, Lawyer generates a "One-Time TIN" (EO 98).
 * [ ] **Specimen Signature Sheet**: Brian signs a blank sheet 5 times.
 
 **FOLDER C: LOCATION ASSETS**
+
 * [ ] **Proof of Residence (Home Office)**: Copy of Deed of Sale / CCT for Marco Polo unit.
 * [ ] **HOA Clearance / Letter of No Objection**: Certificate from Marco Polo PMO.
 * [ ] **Barangay Clearance**: Specific to Nivel Hills / Lahug (Residential use).
 
 **FOLDER D: CORPORATE DRAFTS (The "Legal Pack")**
+
 * [ ] **Articles of Incorporation (AOI)**: Purpose must include "Rent-a-Car" and "Transport Services".
 * [ ] **By-Laws**: Standard Corporate Governance rules.
 * [ ] **Treasurer's Affidavit**: Notarized statement that 25% of capital is paid up.
@@ -98,9 +102,9 @@ We do not hire lawyers for standard filing. We hire them for **Architecture, Def
 
 **When to Hire (Triggers)**
 
-1. **Co-Founder Conflict**: If SHA involves complex vesting/anti-dilution.
-2. **Franchise Denial**: If LTFRB issues a "Notice of Defect" or moratorium.
-3. **Fundraising**: Series A/VC Term Sheet reviews.
+* **Co-Founder Conflict**: If SHA involves complex vesting/anti-dilution.
+* **Franchise Denial**: If LTFRB issues a "Notice of Defect" or moratorium.
+* **Fundraising**: Series A/VC Term Sheet reviews.
 
 **Hiring Script**: "We are a bootstrapped transport tech startup. We handle all ground-level admin ourselves. We are looking for a **Retainer-based** relationship specifically for **High-Level Advisory** and **Crisis Management**. Do you have experience with **LTFRB franchises** specifically?"
 
@@ -133,13 +137,13 @@ We do not hire lawyers for standard filing. We hire them for **Architecture, Def
 
 #### Week 2
 
-- [ ] Draft Articles of Incorporation & By-Laws
+* [ ] Draft Articles of Incorporation & By-Laws
 * [ ] Circulate SHA for signature
 * [ ] Submit Documents to SEC
 
 #### Week 3
 
-- [ ] **GATE**: Receive SEC Certificate of Incorporation
+* [ ] **GATE**: Receive SEC Certificate of Incorporation
 * [ ] Convert Bank Account to Corporate Account (Brian as Sole Signatory)
 * [ ] Apply for BIR Registration (Form 2303) & Receipts
 
@@ -149,19 +153,19 @@ We do not hire lawyers for standard filing. We hire them for **Architecture, Def
 
 #### Week 4
 
-- [ ] Meeting with Ayala Center Management (Parking/Hub)
+* [ ] Meeting with Ayala Center Management (Parking/Hub)
 * [ ] Meeting with MCIA (Airport) Management
 * [ ] Secure LOIs (Letters of Intent)
 
 #### Week 5
 
-- [ ] Finalize Software Vendor Selection (RentCentric vs Navotar)
+* [ ] Finalize Software Vendor Selection (RentCentric vs Navotar)
 * [ ] Setup Website Landing Page & SEO
 * [ ] Apply for Business Permit (LGU)
 
 #### Week 6
 
-- [ ] Finalize Insurance proposal for Fleet
+* [ ] Finalize Insurance proposal for Fleet
 * [ ] **GATE**: Business Permit Issued
 * [ ] **Action**: Scout LTFRB Region 7 for specific list. Secure Garage Lease/Authority.
 
@@ -171,22 +175,22 @@ We do not hire lawyers for standard filing. We hire them for **Architecture, Def
 
 #### Week 7
 
-- [ ] **GATE**: Downpayment for 5 BYD Seagull units (20%)
+* [ ] **GATE**: Downpayment for 5 BYD Seagull units (20%)
 * [ ] Order Teltonika GPS/Telematics units
 
 #### Week 8
 
-- [ ] **Apply for LTFRB Provisional Authority (PA)** (See Protocol below)
+* [ ] **Apply for LTFRB Provisional Authority (PA)** (See Protocol below)
 * [ ] Interview Fleet Runners
 
 #### Week 9
 
-- [ ] Office Setup / Command Center check
+* [ ] Office Setup / Command Center check
 * [ ] Finalize Charging Partners (VECO/Malls)
 
 #### Week 10
 
-- [ ] Unit Release from BYD
+* [ ] Unit Release from BYD
 * [ ] Install Teltonika Hardware & Cut-off relays
 
 ### PHASE 4: INTEGRATION & LAUNCH (Weeks 11-16)
@@ -195,13 +199,13 @@ We do not hire lawyers for standard filing. We hire them for **Architecture, Def
 
 #### Week 11-12
 
-- [ ] Car Wrapping ("Cebu Loop" Branding)
+* [ ] Car Wrapping ("Cebu Loop" Branding)
 * [ ] Fleet Runner Training
 * [ ] System Integration Test (GPS <-> App <-> Payment)
 
 #### Week 13-16
 
-- [ ] Dry Run (Internal) -> Soft Launch (F&F) -> **GRAND LAUNCH**
+* [ ] Dry Run (Internal) -> Soft Launch (F&F) -> **GRAND LAUNCH**
 
 ---
 
@@ -215,21 +219,21 @@ Electric Vehicle operators are entitled to **Expedited Processing**. When filing
 
 ### Application Packet (4 Sets: 1 Original + 3 Photocopies)
 
-1. **Verified Application Form**: Requesting "Issuance of New CPC for Rent-a-Car Service".
-2. **Affidavit of Undertaking**: Compliance promise.
-3. **Legal Docs**: SEC Cert, AOI, By-Laws, Operator's Data Sheet.
-4. **Financial Docs**: Bank Certificate + Affidavit of New Business.
-5. **Garage Docs**: Land Title/Lease + LGU Zoning + Map + Photos.
-6. **Unit Docs**: LTO OR/CR + Photos (with newspaper for date proof) + Stencils.
-    * *No Unit Yet?* Use "Affidavit of Undertaking" regarding unit compliance if allowed, usually requires OR/CR for final PA.
+* **Verified Application Form**: Requesting "Issuance of New CPC for Rent-a-Car Service".
+* **Affidavit of Undertaking**: Compliance promise.
+* **Legal Docs**: SEC Cert, AOI, By-Laws, Operator's Data Sheet.
+* **Financial Docs**: Bank Certificate + Affidavit of New Business.
+* **Garage Docs**: Land Title/Lease + LGU Zoning + Map + Photos.
+* **Unit Docs**: LTO OR/CR + Photos (with newspaper for date proof) + Stencils.
+  * *No Unit Yet?* Use "Affidavit of Undertaking" regarding unit compliance if allowed, usually requires OR/CR for final PA.
 
 ### The Process (Region 7 Walk-In)
 
-1. **Scout**: Get checklist from Public Assistance Desk.
-2. **File**: Submit "Offer of Evidence".
-3. **Pay**: Filing Fees & Legal Research Fees.
-4. **Wait**: Receive "Notice of Hearing" and "Order of Payment".
-5. **Motion**: File "Motion for Issuance of Provisional Authority".
+* **Scout**: Get checklist from Public Assistance Desk.
+* **File**: Submit "Offer of Evidence".
+* **Pay**: Filing Fees & Legal Research Fees.
+* **Wait**: Receive "Notice of Hearing" and "Order of Payment".
+* **Motion**: File "Motion for Issuance of Provisional Authority".
 
 > [!WARNING]
 > **The "Colorum" Trap**: Operating with a driver *before* the PA is issued is illegal. Fine is P200k/car. **Do not launch until PA is in hand.**
@@ -266,16 +270,15 @@ Electric Vehicle operators are entitled to **Expedited Processing**. When filing
 
 ### A. The Fleet Runner Logistics
 
-- **Motorcycle**: Runner uses own bike (125cc+). Paid ₱2,500/mo Allowance + Fuel.
+* **Motorcycle**: Runner uses own bike (125cc+). Paid ₱2,500/mo Allowance + Fuel.
 * **Uniform**: "Cebu Loop Crew" Polo + "Scan to Drive Me" QR on back.
 * **Field Kit**: Cordless Vacuum (Black+Decker), UVC Wand, 70% Alcohol, Admin App (GPS/SoC).
 
 ### B. The "5-Star Clean" Protocol
 
-1. **Runner arrives** within 45 mins.
-2. **De-trash & Vac**: 2-min blitz.
-3. **UVC Sweep**: 30-sec pass on touchpoints.
-4. **Reset**: AC neutral, Park, Plug-in.
+1. **De-trash & Vac**: 2-min blitz.
+2. **UVC Sweep**: 30-sec pass on touchpoints.
+3. **Reset**: AC neutral, Park, Plug-in.
 
 ### C. Rebalancing (The Airport Problem)
 
