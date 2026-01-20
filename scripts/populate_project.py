@@ -95,51 +95,64 @@ def parse_manual(file_path):
     tasks = []
     lines = content.split('\n')
     current_phase = "General"
+    current_step = ""  # Track Step headers for grouping
     current_header_slug = ""
     
     current_task = None
 
     for line in lines:
-        # Detect Headers to build anchor links
-        if line.startswith('### PHASE') or line.startswith('## ') or line.startswith('#### '):
+        # Detect Phase Headers
+        if line.startswith('### PHASE') or line.startswith('## '):
             if current_task:
                  tasks.append(current_task)
                  current_task = None
             
-            if line.strip():
-                # Only update phase if it's a phase header, not subheader?
-                # Actually, we want the phase context. 
-                # Let's keep it simple: if it says PHASE, grab it.
-                if "PHASE" in line:
-                    current_phase = line.replace('#', '').strip()
-                    current_header_slug = slugify(current_phase)
+            if "PHASE" in line:
+                current_phase = line.replace('#', '').strip()
+                current_header_slug = slugify(current_phase)
             continue
         
-        # Detect Checkboxes: Handles "* [ ] Task" and "* **[ ] Task**"
-        match = re.search(r'^\s*[-*]\s*(?:\*\*)?\[\s*\](?:\*\*)?\s*(.+)', line)
-        if match:
-            # If we were building a previous task, save it
+        # Detect Step Headers (e.g., "#### Step 1: Logistics")
+        if line.startswith('#### '):
+            if current_task:
+                tasks.append(current_task)
+                current_task = None
+            current_step = line.replace('#', '').strip()
+            continue
+        
+        # TOP-LEVEL Checkboxes ONLY (start with "* " at column 0, no leading whitespace)
+        # This regex requires the line to start with "* " directly (no indentation)
+        top_level_match = re.match(r'^\* \*?\*?\[\s*\]\*?\*?\s*(.+)', line)
+        if top_level_match:
+            # Save previous task
             if current_task:
                 tasks.append(current_task)
 
-            task_desc = match.group(1).strip()
-            task_desc = task_desc.replace('**', '') # Clean bold
+            task_desc = top_level_match.group(1).strip()
+            task_desc = task_desc.replace('**', '').rstrip(':')  # Clean formatting
             
-            # Create deep link
-            # Note: current_header_slug might be stale if we are deep in subheaders,
-            # but usually the anchors are on headings.
+            # Build title with step context if available
+            if current_step and not task_desc.startswith(('Action:', 'Field:', 'Remote:', 'Online:')):
+                title = f"{current_step}: {task_desc}"
+            else:
+                title = task_desc
+            
             link = f"{REPO_URL}#{current_header_slug}"
             
             current_task = {
                 'phase': current_phase,
-                'title': task_desc,
+                'title': title,
                 'link': link,
                 'body': []
             }
-        elif current_task and line.strip():
-             # Heuristic: If it has indentation, it belongs to the task.
-            if line.startswith('  ') or line.startswith('\t'):
-                current_task['body'].append(line.strip())
+        elif current_task:
+            # Everything else (indented lines, sub-bullets) goes into body
+            stripped = line.strip()
+            if stripped:
+                # Clean up checkbox markers for body content
+                stripped = re.sub(r'^\[\s*\]\s*', '- ', stripped)
+                stripped = re.sub(r'^[-*]\s*\[\s*\]\s*', '- ', stripped)
+                current_task['body'].append(stripped)
 
     if current_task:
         tasks.append(current_task)

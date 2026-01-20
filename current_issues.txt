@@ -1,0 +1,30 @@
+181	OPEN	Print: Receive Certificate of Incorporation. Add to Envelope D	phase:2-paper-hub	2026-01-20T07:13:11Z
+180	OPEN	Pay: Pay SEC Fees via GCash/Landbank	phase:2-paper-hub	2026-01-20T07:13:08Z
+179	OPEN	Monitor: Check email daily for SEC Payment Assessment	phase:2-paper-hub	2026-01-20T07:13:05Z
+178	OPEN	Field: Asset Scouting Mission:	phase:1-legal-shield	2026-01-20T07:13:02Z
+177	OPEN	Online: Finalize SEC Application:	phase:1-legal-shield	2026-01-20T07:12:58Z
+176	OPEN	Action: Notarize Treasurer's Affidavit:	phase:1-legal-shield	2026-01-20T07:12:56Z
+175	OPEN	Field: Secure Bank Certificate:	phase:1-legal-shield	2026-01-20T07:12:53Z
+174	OPEN	Remote: Confirm Wire Receipt:	phase:1-legal-shield	2026-01-20T07:12:50Z
+173	OPEN	Remote: Wire Paid-Up Capital:	phase:1-legal-shield	2026-01-20T07:12:47Z
+172	OPEN	Field: Open TITF Savings Account (UnionBank):	phase:1-legal-shield	2026-01-20T07:12:43Z
+171	OPEN	Remote: Verify Capital Readiness:	phase:1-legal-shield	2026-01-20T07:12:40Z
+170	OPEN	Field: Secure Barangay Clearance:	phase:1-legal-shield	2026-01-20T07:12:37Z
+169	OPEN	Action: Register Company Name (SEC ESPARC):	phase:1-legal-shield	2026-01-20T07:12:34Z
+168	OPEN	To Envelope D: Keep empty (Reserved for SEC/BIR papers)	phase:0-bag-builder	2026-01-20T07:12:31Z
+167	OPEN	To Envelope C: Virtual Office Contract, Certificate, Utility Bills	phase:0-bag-builder	2026-01-20T07:12:28Z
+166	OPEN	To Envelope B: Brian's Passport scans, Signature Sheets	phase:0-bag-builder	2026-01-20T07:12:25Z
+165	OPEN	To Envelope A: Joy's Passport copies, TIN copies, Photos, Cedula	phase:0-bag-builder	2026-01-20T07:12:22Z
+164	OPEN	Action: Stuff Envelopes:	phase:0-bag-builder	2026-01-20T07:12:19Z
+163	OPEN	Action: Label the 4 Envelopes:	phase:0-bag-builder	2026-01-20T07:12:16Z
+162	OPEN	Utility Bill x3 (Joy's residence)	phase:0-bag-builder	2026-01-20T07:12:13Z
+161	OPEN	Virtual Office Certificate of Registration x3	phase:0-bag-builder	2026-01-20T07:12:10Z
+160	OPEN	Virtual Office Contract x3	phase:0-bag-builder	2026-01-20T07:12:06Z
+159	OPEN	Print Location/Business Docs:	phase:0-bag-builder	2026-01-20T07:12:03Z
+158	OPEN	Brian's Specimen Signature Sheet x5	phase:0-bag-builder	2026-01-20T07:12:00Z
+157	OPEN	Brian's Passport Scan (Color) x5	phase:0-bag-builder	2026-01-20T07:11:57Z
+156	OPEN	Print Investor Docs:	phase:0-bag-builder	2026-01-20T07:11:54Z
+155	OPEN	Joy's TIN ID (Green Card) x3	phase:0-bag-builder	2026-01-20T07:11:51Z
+154	OPEN	Joy's Passport Bio Page x5	phase:0-bag-builder	2026-01-20T07:11:48Z
+153	OPEN	Photocopy Personal Identity Docs:	phase:0-bag-builder	2026-01-20T07:11:45Z
+152	OPEN	Community Tax Certificate (Cedula):	phase:0-bag-builder	2026-01-20T07:11:42Z

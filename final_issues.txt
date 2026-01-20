@@ -1,0 +1,47 @@
+277	OPEN	Week 8: PA Approval Expected: Event: GRAND LAUNCH (Go Live)	phase:4-launch	2026-01-20T08:25:10Z
+276	OPEN	Week 8: PA Approval Expected: Event: SOFT LAUNCH (Invite-only beta customers)	phase:4-launch	2026-01-20T08:25:08Z
+275	OPEN	Action: App/Booking System Testing	phase:4-launch	2026-01-20T08:25:05Z
+274	OPEN	Action: Driver Training (If with-driver model)	phase:4-launch	2026-01-20T08:25:02Z
+273	OPEN	Action: Car Wrapping (Branding)	phase:4-launch	2026-01-20T08:24:59Z
+272	OPEN	Week 8: PA Approval Expected: Print: Receive Provisional Authority document	phase:3-assets	2026-01-20T08:24:56Z
+271	OPEN	Action: Pay PA fees upon approval	phase:3-assets	2026-01-20T08:24:53Z
+270	OPEN	Week 8: PA Approval Expected: Monitor: Check email/LTFRB portal for PA Release	phase:3-assets	2026-01-20T08:24:49Z
+269	OPEN	Action: Install GPS & IoT Sims	phase:3-assets	2026-01-20T08:24:46Z
+268	OPEN	Field: Pickup 5 BYD Seagull Units	phase:3-assets	2026-01-20T08:24:43Z
+267	OPEN	Field: Attend LTFRB Hearing (if scheduled)	phase:3-assets	2026-01-20T08:24:40Z
+266	OPEN	Week 6: LTFRB Provisional Authority Application: Output: Order of Payment + Notice of Hearing	phase:3-assets	2026-01-20T08:24:37Z
+265	OPEN	Field: Submit PA Application at LTFRB Region 7	phase:3-assets	2026-01-20T08:24:35Z
+264	OPEN	Action: Compile LTFRB PA Payload	phase:3-assets	2026-01-20T08:24:31Z
+263	OPEN	Action: Order GPS Trackers (Teltonika)	phase:3-assets	2026-01-20T08:24:28Z
+262	OPEN	Week 5: Order the Fleet: ⚡ Action: Request Unit Details (Chassis/Engine numbers for LTFRB even before delivery)	phase:3-assets	2026-01-20T08:24:24Z
+261	OPEN	Action: Joy pays BYD Dealership. Order 5 Units	phase:3-assets	2026-01-20T08:24:21Z
+260	OPEN	Action: Brian wires 20% Downpayment	phase:3-assets	2026-01-20T08:24:18Z
+259	OPEN	Week 4: Corporate Account + LTFRB Documents: ⚡ PARALLEL: Request Bank Cert for LTFRB (₱20k reserve/unit = ₱100k for 5 units)	phase:2-paper-hub	2026-01-20T08:24:15Z
+258	OPEN	Week 4: Corporate Account + LTFRB Documents: ⚡ PARALLEL: Pay PPAI Insurance (₱4M coverage/unit)	phase:2-paper-hub	2026-01-20T08:24:12Z
+257	OPEN	Field: Bank Conversion (TITF → Corporate Checking)	phase:2-paper-hub	2026-01-20T08:24:09Z
+256	OPEN	Week 3: Licensing (BIR & Mayor) + LTFRB Prep: ⚡ PARALLEL: Draft LTFRB Application (Can start before cars arrive)	phase:2-paper-hub	2026-01-20T08:24:06Z
+255	OPEN	Week 3: Licensing (BIR & Mayor) + LTFRB Prep: ⚡ PARALLEL: Secure Parking/Garage Contract (Required for LTFRB)	phase:2-paper-hub	2026-01-20T08:24:03Z
+254	OPEN	Field: Mayor's Permit (City Hall)	phase:2-paper-hub	2026-01-20T08:23:59Z
+253	OPEN	Field: BIR Registration (RDO) → Output: COR 2303	phase:2-paper-hub	2026-01-20T08:23:56Z
+252	OPEN	Week 2: SEC Release + Insurance Quote: ⚡ PARALLEL: Get PPAI Insurance Quote (Passenger Personal Accident, ₱4M/unit)	phase:2-paper-hub	2026-01-20T08:23:53Z
+251	OPEN	Week 2: SEC Release + Insurance Quote: Print: Receive Certificate of Incorporation	phase:2-paper-hub	2026-01-20T08:23:50Z
+250	OPEN	Week 2: SEC Release + Insurance Quote: Pay: Pay SEC Fees via GCash/Landbank	phase:2-paper-hub	2026-01-20T08:23:47Z
+249	OPEN	Week 2: SEC Release + Insurance Quote: Monitor: Check email daily for SEC Payment Assessment	phase:2-paper-hub	2026-01-20T08:23:44Z
+248	OPEN	Field: Asset Scouting Mission (BYD Quote + Parking Rates)	phase:1-legal-shield	2026-01-20T08:23:41Z
+247	OPEN	Online: Finalize SEC Application	phase:1-legal-shield	2026-01-20T08:23:38Z
+246	OPEN	Action: Notarize Treasurer's Affidavit	phase:1-legal-shield	2026-01-20T08:23:35Z
+245	OPEN	Field: Secure Bank Certificate	phase:1-legal-shield	2026-01-20T08:23:32Z
+244	OPEN	Remote: Confirm Wire Receipt (Wait 24-48 hours)	phase:1-legal-shield	2026-01-20T08:23:28Z
+243	OPEN	Remote: Wire Paid-Up Capital	phase:1-legal-shield	2026-01-20T08:23:25Z
+242	OPEN	Field: Open TITF Savings Account (UnionBank)	phase:1-legal-shield	2026-01-20T08:23:21Z
+241	OPEN	Remote: Verify Capital Readiness (₱625k in Transferwise)	phase:1-legal-shield	2026-01-20T08:23:18Z
+240	OPEN	Field: Secure Barangay Clearance	phase:1-legal-shield	2026-01-20T08:23:14Z
+239	OPEN	Action: Register Company Name (SEC ESPARC)	phase:1-legal-shield	2026-01-20T08:23:11Z
+238	OPEN	Step 3: Photocopy & Print: Print Location Docs: Virtual Office Contract x3, Utility Bill x3	phase:0-bag-builder	2026-01-20T08:23:08Z
+237	OPEN	Step 3: Photocopy & Print: Print Investor Docs: Brian Passport x5, Signature Sheet x5	phase:0-bag-builder	2026-01-20T08:23:06Z
+236	OPEN	Step 3: Photocopy & Print: Photocopy Personal Identity Docs: Passport x5, TIN x3	phase:0-bag-builder	2026-01-20T08:23:03Z
+235	OPEN	Step 2B: Obtain New Documents: Community Tax Certificate (Cedula)	phase:0-bag-builder	2026-01-20T08:23:00Z
+234	OPEN	Step 2B: Obtain New Documents: Professional ID Photos	phase:0-bag-builder	2026-01-20T08:22:57Z
+233	OPEN	Step 2B: Obtain New Documents: Secure Virtual Office Contract	phase:0-bag-builder	2026-01-20T08:22:54Z
+232	OPEN	Step 2A: Verify Pre-Existing Documents: Pre-Flight Document Check	phase:0-bag-builder	2026-01-20T08:22:51Z
+231	OPEN	Action: Buy Logistics	phase:0-bag-builder	2026-01-20T08:22:48Z

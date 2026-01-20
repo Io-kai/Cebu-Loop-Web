@@ -1,0 +1,270 @@
+Checking labels...
+Creating 36 issues...
+gh issue create --title Action: Buy Logistics --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+- 4x Long Brown Envelopes
+- 1x Blue Ballpoint Pen (Government Forms)
+- 1x Black Ballpoint Pen (Bank Forms)
+- 1x Paper Clip / Binder Clip Set
+- 1x Clear Plastic Envelope (The "Master Bag")
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Step 2A: Verify Pre-Existing Documents: Pre-Flight Document Check --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+- **Joy's Passport**: Locate physical passport. Check expiry date > 6 months from today.
+- **Joy's TIN ID (Green Card)**: Locate physical card or clear digital copy.
+- **Brian's Passport Scan**: Confirm Brian has sent Bio Page color scan via email.
+- **Brian's Specimen Signature Sheet**: Confirm Brian has signed 3 times and sent scan.
+- **Utility Bill**: Locate recent bill (< 3 months old) from Joy's residence for personal verification.
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Step 2B: Obtain New Documents: Secure Virtual Office Contract --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+* **CRITICAL FIRST PRIORITY** - Required for ALL government registrations
+* Research providers: KMC Solutions (IT Park), The Company Cebu, Regus
+* Minimum package: Business address + mail handling
+* Budget: ₱500-1500/month
+* Visit office, sign contract same-day if possible
+* **Output**: Signed contract + Certificate of Registration from provider
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Step 2B: Obtain New Documents: Professional ID Photos --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+* Visit photo studio (e.g., Kodak Express, MinStudio)
+* Request: 10x (1x1) and 10x (2x2)
+* Specification: White background, collared shirt
+* **Output**: Physical photo prints
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Step 2B: Obtain New Documents: Community Tax Certificate (Cedula) --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+* Go to Barangay Hall where Joy resides
+* Bring: Any valid government ID
+* Pay: ~₱50
+* **Output**: Official Cedula receipt
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Step 3: Photocopy & Print Verified Documents: Photocopy Personal Identity Docs --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+- Joy's Passport Bio Page x5
+- Joy's TIN ID (Green Card) x3
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Step 3: Photocopy & Print Verified Documents: Print Investor Docs --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+- Brian's Passport Scan (Color) x5
+- Brian's Specimen Signature Sheet x5
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Step 3: Photocopy & Print Verified Documents: Print Location/Business Docs --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+- Virtual Office Contract x3
+- Virtual Office Certificate of Registration x3
+- Utility Bill x3 (Joy's residence)
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Action: Label the 4 Envelopes --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+* Write clearly on top right corner:
+* **Envelope A**: "Personal Identity - Joy"
+* **Envelope B**: "Investor Identity - Brian"
+* **Envelope C**: "Business Location - Virtual Office"
+* **Envelope D**: "Legal & Government" (Keep Empty)
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Action: Stuff Envelopes --body **Source**: [PHASE 0: THE BAG BUILDER (Day 0 - Immediate)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0-immediate)
+
+### Instructions
+- **To Envelope A**: Joy's Passport copies, TIN copies, Photos, Cedula
+- **To Envelope B**: Brian's Passport scans, Signature Sheets
+- **To Envelope C**: Virtual Office Contract, Certificate, Utility Bills
+- **To Envelope D**: Keep empty (Reserved for SEC/BIR papers)
+---
+
+Context: This task is part of the master execution timeline. --label phase:0-bag-builder
+gh issue create --title Action: Register Company Name (SEC ESPARC) --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Context*: Cannot open bank account without reserved name
+* *Site*: <https://esparc.secy.gov.ph>
+* *Input*: Purpose Clause: "To engage in the business of transportation services..."
+* *Output*: Download "Name Reservation Slip". **File in Envelope D**
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Field: Secure Barangay Clearance --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Context*: Required for Mayor's Permit later
+* *Location*: Barangay Hall where virtual office is located
+* *Bring*: Envelope C (Virtual Office docs)
+* *Action*: Apply for "Barangay Clearance for Business"
+* *Pay*: ~₱500 fee. **Photo Receipt**
+* *Output*: Physical Clearance. **File in Envelope D**
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Remote: Verify Capital Readiness --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Check*: Brian confirms ₱625,000 is ready in Transferwise
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Field: Open TITF Savings Account (UnionBank) --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Context*: Temporary account to deposit Paid-Up Capital
+* *Bring*: Envelope A (Joy IDs), Envelope B (Brian IDs), Envelope D (Name Reservation)
+* *Action*: Open "Treasurer-in-Trust" (TITF) Savings Account
+* *Output*: Bank Account Number & Deposit Slip
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Remote: Wire Paid-Up Capital --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Action*: Brian wires ₱625,000 to the new TITF account
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Remote: Confirm Wire Receipt --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Wait Time*: Allow 24-48 hours for international wire transfer
+* *Check*: Verify money reflects in account via online banking before requesting certificate
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Field: Secure Bank Certificate --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Action*: Request **Bank Certificate of Deposit** (Original)
+* *Output*: Physical Bank Cert. **File in Envelope D**
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Action: Notarize Treasurer's Affidavit --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Draft*: Fill Template with Bank Cert details
+* *Action*: Joy signs before Notary Public
+* *Output*: Notarized Affidavit. **File in Envelope D**
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Online: Finalize SEC Application --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Upload*: Signed AOI, By-Laws, Treasurer's Affidavit, Bank Cert
+* *Action*: Submit to SEC for Review
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Field: Asset Scouting Mission --body **Source**: [PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1-the-sprint)
+
+### Instructions
+* *Objective*: Get hard data for LTFRB Application
+* *Sub-task 1 (BYD)*: Visit Dealership. Get Official Quote for 5 White Seagulls. Sit in car. Test legroom.
+* *Sub-task 2 (Parking)*: Visit Ayala/IT Park. Ask for "Corporate Fleet Overnight Rates"
+---
+
+Context: This task is part of the master execution timeline. --label phase:1-legal-shield
+gh issue create --title Week 2: SEC Release: Monitor: Check email daily for SEC Payment Assessment --body **Source**: [PHASE 2: THE "PAPER HUB" (Weeks 2-6)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-2-the-paper-hub-weeks-2-6)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:2-paper-hub
+gh issue create --title Week 2: SEC Release: Pay: Pay SEC Fees via GCash/Landbank --body **Source**: [PHASE 2: THE "PAPER HUB" (Weeks 2-6)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-2-the-paper-hub-weeks-2-6)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:2-paper-hub
+gh issue create --title Week 2: SEC Release: Print: Receive Certificate of Incorporation. Add to Envelope D --body **Source**: [PHASE 2: THE "PAPER HUB" (Weeks 2-6)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-2-the-paper-hub-weeks-2-6)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:2-paper-hub
+gh issue create --title Field: BIR Registration (RDO): Bring SEC Cert. Output: COR 2303 --body **Source**: [PHASE 2: THE "PAPER HUB" (Weeks 2-6)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-2-the-paper-hub-weeks-2-6)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:2-paper-hub
+gh issue create --title Field: Mayor's Permit (City Hall): Bring Barangay Clearance + SEC Cert --body **Source**: [PHASE 2: THE "PAPER HUB" (Weeks 2-6)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-2-the-paper-hub-weeks-2-6)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:2-paper-hub
+gh issue create --title Field: Bank Conversion --body **Source**: [PHASE 2: THE "PAPER HUB" (Weeks 2-6)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-2-the-paper-hub-weeks-2-6)
+
+### Instructions
+* Change TITF Account to **Corporate Checking Account**
+* Enroll Brian in Corporate Online Banking
+---
+
+Context: This task is part of the master execution timeline. --label phase:2-paper-hub
+gh issue create --title Action: Brian wires 20% Downpayment --body **Source**: [PHASE 3: ASSET COMMITMENT (Weeks 7-10)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-3-asset-commitment-weeks-7-10)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:3-assets
+gh issue create --title Action: Joy pays Dealership. Order 5 Units --body **Source**: [PHASE 3: ASSET COMMITMENT (Weeks 7-10)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-3-asset-commitment-weeks-7-10)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:3-assets
+gh issue create --title Action: Order GPS Trackers --body **Source**: [PHASE 3: ASSET COMMITMENT (Weeks 7-10)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-3-asset-commitment-weeks-7-10)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:3-assets
+gh issue create --title Action: Compile LTFRB Payload (4x Copies of all Legal Docs) --body **Source**: [PHASE 3: ASSET COMMITMENT (Weeks 7-10)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-3-asset-commitment-weeks-7-10)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:3-assets
+gh issue create --title Field: Submit Application at LTFRB Region 7 (EVIDA Lane) --body **Source**: [PHASE 3: ASSET COMMITMENT (Weeks 7-10)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-3-asset-commitment-weeks-7-10)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:3-assets
+gh issue create --title Field: Pickup 5 BYD Seagull Units --body **Source**: [PHASE 3: ASSET COMMITMENT (Weeks 7-10)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-3-asset-commitment-weeks-7-10)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:3-assets
+gh issue create --title Action: Install GPS & Sims --body **Source**: [PHASE 3: ASSET COMMITMENT (Weeks 7-10)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-3-asset-commitment-weeks-7-10)
+
+### Instructions
+---
+
+Context: This task is part of the master execution timeline. --label phase:3-assets
+gh issue create --title Action: Car Wrapping (Branding) --body **Source**: [PHASE 4: LAUNCH (Weeks 11-16)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-4-launch-weeks-11-16)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:4-launch
+gh issue create --title Action: Driver Training (Simulate Bookings) --body **Source**: [PHASE 4: LAUNCH (Weeks 11-16)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-4-launch-weeks-11-16)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:4-launch
+gh issue create --title Week 10: Asset Receipt: Event: Grand Launch (Go Live) --body **Source**: [PHASE 4: LAUNCH (Weeks 11-16)](https://github.com/Io-kai/Cebu-Loop-Web/blob/main/docs/MASTER_EXECUTION_FIELD_MANUAL.md#phase-4-launch-weeks-11-16)
+
+### Instructions
+No specific sub-instructions found in manual.
+
+Context: This task is part of the master execution timeline. --label phase:4-launch

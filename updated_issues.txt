@@ -1,0 +1,36 @@
+230	OPEN	Week 10: Asset Receipt: Event: Grand Launch (Go Live)	phase:4-launch	2026-01-20T08:08:05Z
+229	OPEN	Action: Driver Training (Simulate Bookings)	phase:4-launch	2026-01-20T08:08:02Z
+228	OPEN	Action: Car Wrapping (Branding)	phase:4-launch	2026-01-20T08:07:59Z
+227	OPEN	Action: Install GPS & Sims	phase:3-assets	2026-01-20T08:07:56Z
+226	OPEN	Field: Pickup 5 BYD Seagull Units	phase:3-assets	2026-01-20T08:07:53Z
+225	OPEN	Field: Submit Application at LTFRB Region 7 (EVIDA Lane)	phase:3-assets	2026-01-20T08:07:50Z
+224	OPEN	Action: Compile LTFRB Payload (4x Copies of all Legal Docs)	phase:3-assets	2026-01-20T08:07:47Z
+223	OPEN	Action: Order GPS Trackers	phase:3-assets	2026-01-20T08:07:44Z
+222	OPEN	Action: Joy pays Dealership. Order 5 Units	phase:3-assets	2026-01-20T08:07:42Z
+221	OPEN	Action: Brian wires 20% Downpayment	phase:3-assets	2026-01-20T08:07:39Z
+220	OPEN	Field: Bank Conversion	phase:2-paper-hub	2026-01-20T08:07:36Z
+219	OPEN	Field: Mayor's Permit (City Hall): Bring Barangay Clearance + SEC Cert	phase:2-paper-hub	2026-01-20T08:07:32Z
+218	OPEN	Field: BIR Registration (RDO): Bring SEC Cert. Output: COR 2303	phase:2-paper-hub	2026-01-20T08:07:29Z
+217	OPEN	Week 2: SEC Release: Print: Receive Certificate of Incorporation. Add to Envelope D	phase:2-paper-hub	2026-01-20T08:07:26Z
+216	OPEN	Week 2: SEC Release: Pay: Pay SEC Fees via GCash/Landbank	phase:2-paper-hub	2026-01-20T08:07:23Z
+215	OPEN	Week 2: SEC Release: Monitor: Check email daily for SEC Payment Assessment	phase:2-paper-hub	2026-01-20T08:07:20Z
+214	OPEN	Field: Asset Scouting Mission	phase:1-legal-shield	2026-01-20T08:07:16Z
+213	OPEN	Online: Finalize SEC Application	phase:1-legal-shield	2026-01-20T08:07:13Z
+212	OPEN	Action: Notarize Treasurer's Affidavit	phase:1-legal-shield	2026-01-20T08:07:11Z
+211	OPEN	Field: Secure Bank Certificate	phase:1-legal-shield	2026-01-20T08:07:08Z
+210	OPEN	Remote: Confirm Wire Receipt	phase:1-legal-shield	2026-01-20T08:07:05Z
+209	OPEN	Remote: Wire Paid-Up Capital	phase:1-legal-shield	2026-01-20T08:07:02Z
+208	OPEN	Field: Open TITF Savings Account (UnionBank)	phase:1-legal-shield	2026-01-20T08:06:59Z
+207	OPEN	Remote: Verify Capital Readiness	phase:1-legal-shield	2026-01-20T08:06:56Z
+206	OPEN	Field: Secure Barangay Clearance	phase:1-legal-shield	2026-01-20T08:06:53Z
+205	OPEN	Action: Register Company Name (SEC ESPARC)	phase:1-legal-shield	2026-01-20T08:06:50Z
+204	OPEN	Action: Stuff Envelopes	phase:0-bag-builder	2026-01-20T08:06:47Z
+203	OPEN	Action: Label the 4 Envelopes	phase:0-bag-builder	2026-01-20T08:06:44Z
+202	OPEN	Step 3: Photocopy & Print Verified Documents: Print Location/Business Docs	phase:0-bag-builder	2026-01-20T08:06:41Z
+201	OPEN	Step 3: Photocopy & Print Verified Documents: Print Investor Docs	phase:0-bag-builder	2026-01-20T08:06:38Z
+200	OPEN	Step 3: Photocopy & Print Verified Documents: Photocopy Personal Identity Docs	phase:0-bag-builder	2026-01-20T08:06:34Z
+199	OPEN	Step 2B: Obtain New Documents: Community Tax Certificate (Cedula)	phase:0-bag-builder	2026-01-20T08:06:32Z
+198	OPEN	Step 2B: Obtain New Documents: Professional ID Photos	phase:0-bag-builder	2026-01-20T08:06:29Z
+197	OPEN	Step 2B: Obtain New Documents: Secure Virtual Office Contract	phase:0-bag-builder	2026-01-20T08:06:25Z
+196	OPEN	Step 2A: Verify Pre-Existing Documents: Pre-Flight Document Check	phase:0-bag-builder	2026-01-20T08:06:22Z
+195	OPEN	Action: Buy Logistics	phase:0-bag-builder	2026-01-20T08:06:19Z
