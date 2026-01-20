@@ -60,6 +60,9 @@
             <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-12 font-light">
                 First 100% Electric, App-Based, Station-Free Car Sharing Network.
             </p>
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <i class="fa-solid fa-chevron-down text-2xl text-slate-500"></i>
+            </div>
         </div>
     </section>
 
@@ -70,18 +73,18 @@
                 <div>
                     <h2 class="text-4xl font-bold mb-6">The Problem</h2>
                     <p class="text-slate-400 text-lg mb-8 leading-relaxed">
-                        Traditional car rental in Cebu is broken. High fuel costs, outdated paperwork, strict office
-                        hours, and older fleets create friction for tourists and locals alike.
+                        Traditional car rental in Cebu is broken. High fuel costs (>₱70/L), outdated paperwork, strict
+                        office hours, and older fleets create friction for tourists and locals alike.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-center gap-4 text-slate-300">
-                            <i class="fa-solid fa-gas-pump text-red-500 w-6"></i> Fuel prices rising (>₱70/L)
+                            <i class="fa-solid fa-clock text-red-500 w-6"></i> Waste time at counters
                         </li>
                         <li class="flex items-center gap-4 text-slate-300">
-                            <i class="fa-solid fa-file-signature text-red-500 w-6"></i> Slow, manual paperwork
+                            <i class="fa-solid fa-file-signature text-red-500 w-6"></i> Manual contracts & deposits
                         </li>
                         <li class="flex items-center gap-4 text-slate-300">
-                            <i class="fa-solid fa-smog text-red-500 w-6"></i> Pollution & Noise
+                            <i class="fa-solid fa-gas-pump text-red-500 w-6"></i> Expensive fuel costs
                         </li>
                     </ul>
                 </div>
@@ -100,45 +103,86 @@
         </div>
     </section>
 
-    <!-- Slide 3: The Solution -->
+    <!-- Slide 3: The Solution (The Car) -->
     <section class="py-24 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">The Solution</h2>
-                <p class="text-slate-400">Seamless. Electric. Digital.</p>
+            <div class="mb-16">
+                <span class="text-blue-500 font-bold uppercase tracking-widest text-xs">The Asset</span>
+                <h2 class="text-4xl font-bold mb-4 mt-2">The Perfect Urban Explorer</h2>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="glass p-8 rounded-3xl hover:bg-white/5 transition-all group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
-                        <i class="fa-solid fa-mobile-screen"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">App-Based</h3>
-                    <p class="text-slate-400 text-sm">Unlock instantly with phone. No keys, no counters.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="glass p-2 rounded-[2rem] bg-[#1a1d24]">
+                    <img src="../fleet.jpg" class="rounded-[1.5rem] w-full object-cover" alt="BYD Seagull"
+                        onerror="this.src='https://placehold.co/600x400/1a1d24/3b82f6?text=BYD+Seagull'">
                 </div>
-                <div class="glass p-8 rounded-3xl hover:bg-white/5 transition-all group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
-                        <i class="fa-solid fa-bolt"></i>
+                <div>
+                    <h3 class="text-3xl font-bold mb-6 text-white">BYD Seagull (2025)</h3>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        Compact, tech-loaded, and fully electric. The Seagull is purpose-built for Cebu's narrow streets
+                        and island adventures.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <div class="text-2xl font-bold text-emerald-400">300km</div>
+                            <div class="text-xs text-slate-500 uppercase">Real Range</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-blue-400">30 Mins</div>
+                            <div class="text-xs text-slate-500 uppercase">Fast Charge (30-80%)</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-purple-400">NFC</div>
+                            <div class="text-xs text-slate-500 uppercase">Phone Key Access</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-white">4G</div>
+                            <div class="text-xs text-slate-500 uppercase">Connected Car</div>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">100% Electric</h3>
-                    <p class="text-slate-400 text-sm">BYD Seagull Fleet. 300km Range. Zero Fuel Cost.</p>
-                </div>
-                <div class="glass p-8 rounded-3xl hover:bg-white/5 transition-all group">
-                    <div
-                        class="w-12 h-12 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
-                        <i class="fa-solid fa-square-parking"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">VIP Hubs</h3>
-                    <p class="text-slate-400 text-sm">Exclusive parking at Ayala & MCIA. Charge & Go.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Slide 3.5: Strategic Advantage (Parking & EVIDA) -->
+    <!-- Slide 4: Operational Excellence -->
     <section class="py-24 px-6 bg-[#0a0c10] border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Digital First, Human Supported</h2>
+                <p class="text-slate-400">A hybrid model designed for reliability and scale.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="glass p-8 rounded-3xl">
+                    <div
+                        class="w-16 h-16 mx-auto bg-blue-500/10 rounded-full flex items-center justify-center text-blue-400 text-2xl mb-6">
+                        <i class="fa-solid fa-mobile-button"></i></div>
+                    <h3 class="font-bold text-lg mb-2">App Unlocking</h3>
+                    <p class="text-sm text-slate-400">Users book, pay, and unlock via the app. No keys to lose. Complete
+                        automation for the customer.</p>
+                </div>
+                <div class="glass p-8 rounded-3xl">
+                    <div
+                        class="w-16 h-16 mx-auto bg-emerald-500/10 rounded-full flex items-center justify-center text-emerald-400 text-2xl mb-6">
+                        <i class="fa-solid fa-person-running"></i></div>
+                    <h3 class="font-bold text-lg mb-2">The Runners</h3>
+                    <p class="text-sm text-slate-400">Our ground team ("Runners") clean, charge, and move cars between
+                        hubs, ensuring high availability.</p>
+                </div>
+                <div class="glass p-8 rounded-3xl">
+                    <div
+                        class="w-16 h-16 mx-auto bg-purple-500/10 rounded-full flex items-center justify-center text-purple-400 text-2xl mb-6">
+                        <i class="fa-solid fa-user-tie"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Future: With-Driver</h3>
+                    <p class="text-sm text-slate-400">Upcoming feature: Book a driver on-demand for tourists who prefer
+                        to be driven. (Phase 2).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 5: Strategic Advantage (Parking & EVIDA) -->
+    <section class="py-24 px-6 bg-[#0a0c10]">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
                 <h2 class="text-4xl font-bold mb-6">Unfair Advantage:<br>The EVIDA Law</h2>
@@ -192,44 +236,38 @@
             </div>
         </div>
     </section>
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-        <div class="glass p-8 rounded-3xl border border-blue-500/20">
-            <div class="flex justify-between items-center mb-8 border-b border-white/5 pb-4">
-                <span class="text-slate-400">Unit Revenue / Day</span>
-                <span class="text-2xl font-bold text-white">₱3,200</span>
-            </div>
-            <div class="flex justify-between items-center mb-8 border-b border-white/5 pb-4">
-                <span class="text-slate-400">Operating Cost (Fuel)</span>
-                <span class="text-2xl font-bold text-emerald-400">₱0</span>
-            </div>
-            <div class="flex justify-between items-center">
-                <span class="text-slate-400">Margin</span>
-                <span class="text-2xl font-bold text-blue-400">~65%</span>
-            </div>
-        </div>
-        <div>
-            <h2 class="text-4xl font-bold mb-6">Unit Economics</h2>
-            <p class="text-slate-400 text-lg mb-6 leading-relaxed">
-                By eliminating fuel and automating the rental process, Cebu Loop achieves higher margins than
-                traditional ICE rental agencies.
+
+    <!-- Slide 6: Infrastructure Partnership -->
+    <section class="py-24 px-6 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Powering the Loop</h2>
+            <p class="text-slate-400 max-w-2xl mx-auto mb-12">
+                Strategic partnership with <span class="text-white font-bold">Visayan Electric (VECO)</span> to install
+                DC Fast Chargers across key island nodes.
             </p>
-            <div class="flex gap-4">
-                <div class="text-center">
-                    <div class="text-3xl font-bold text-white">5</div>
-                    <div class="text-xs uppercase text-slate-500">Initial Units</div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="glass p-6 rounded-2xl">
+                    <div class="text-lg font-bold text-white">Mactan</div>
+                    <div class="text-xs text-slate-500 uppercase">Airport Node</div>
                 </div>
-                <div class="w-px bg-white/10"></div>
-                <div class="text-center">
-                    <div class="text-3xl font-bold text-white">Q1</div>
-                    <div class="text-xs uppercase text-slate-500">2026 Launch</div>
+                <div class="glass p-6 rounded-2xl">
+                    <div class="text-lg font-bold text-white">Cebu City</div>
+                    <div class="text-xs text-slate-500 uppercase">Ayala Node</div>
+                </div>
+                <div class="glass p-6 rounded-2xl">
+                    <div class="text-lg font-bold text-white">Moalboal</div>
+                    <div class="text-xs text-slate-500 uppercase">Tourism Node</div>
+                </div>
+                <div class="glass p-6 rounded-2xl opacity-50">
+                    <div class="text-lg font-bold text-white">Oslob</div>
+                    <div class="text-xs text-slate-500 uppercase">Planned</div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-12 text-center text-slate-600 text-xs uppercase tracking-widest">
+    <footer class="py-12 text-center text-slate-600 text-xs uppercase tracking-widest bg-[#020408]">
         &copy; 2026 Cebu Loop Mobility Corp. Confidential Pitch Deck.
     </footer>
 </body>
