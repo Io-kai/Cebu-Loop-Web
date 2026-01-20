@@ -4,52 +4,529 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cebu Loop Mobility Corp | Coming Soon</title>
+    <title>Cebu Loop | Operations Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
-            font-family: 'Inter', system-ui, -apple-system, sans-serif;
-            background-color: #0f172a;
-            color: #f8fafc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
+            font-family: 'Inter', sans-serif;
         }
 
-        .container {
-            max-width: 600px;
-            padding: 2rem;
+        .prose {
+            max-width: none;
         }
 
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(to right, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .prose h1 {
+            color: #3b82f6;
         }
 
-        p {
+        .prose h2 {
+            color: #cbd5e1;
+            margin-top: 2em;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 0.5em;
+        }
+
+        .prose h3 {
             color: #94a3b8;
-            font-size: 1.25rem;
-            line-height: 1.6;
+            margin-top: 1.5em;
         }
 
-        .highlight {
-            color: #38bdf8;
+        .prose a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        .prose ul {
+            list-style-type: disc;
+            padding-left: 1.5em;
+        }
+
+        .prose p {
+            margin-bottom: 1em;
+            line-height: 1.7;
+            color: #cbd5e1;
+        }
+
+        .prose strong {
+            color: #fff;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
             font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-todo {
+            background: #334155;
+            color: #94a3b8;
+        }
+
+        .status-progress {
+            background: #1e3a8a;
+            color: #60a5fa;
+        }
+
+        .status-done {
+            background: #064e3b;
+            color: #34d399;
+        }
+
+        /* Sidebar Scroll */
+        #sidebar {
+            scrollbar-width: thin;
+            scrollbar-color: #334155 #0f172a;
+        }
+
+        #sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        #sidebar::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+
+        #sidebar::-webkit-scrollbar-thumb {
+            background-color: #334155;
+            border-radius: 3px;
         }
     </style>
 </head>
 
-<body>
-    <div class="container">
-        <h1>Cebu Loop</h1>
-        <p>The future of premium electric mobility in Cebu.</p>
-        <p>Launching <span class="highlight">Q1 2026</span>.</p>
-    </div>
+<body class="bg-[#0f172a] text-slate-300 h-screen flex overflow-hidden">
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="w-64 bg-[#1e293b] border-r border-[#334155] flex-shrink-0 flex flex-col overflow-y-auto">
+        <div class="p-6 border-b border-[#334155]">
+            <div class="flex items-center gap-3 mb-1">
+                <svg width="24" height="24" viewBox="0 0 180 120" fill="none">
+                    <path
+                        d="M30 60 C30 30, 70 30, 90 60 C110 90, 150 90, 150 60 C150 30, 110 30, 90 60 C70 90, 30 90, 30 60 Z"
+                        stroke="#3b82f6" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="font-bold text-white text-lg tracking-tight">CEBU<span
+                        class="text-blue-500">LOOP</span></span>
+            </div>
+            <div class="text-xs text-slate-500 uppercase tracking-widest mt-1">Operations Manual</div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="p-4 border-b border-[#334155]">
+            <h3 class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3 px-2">Project Assets</h3>
+            <ul class="space-y-1">
+                <li>
+                    <a href="../index.html" target="_blank"
+                        class="block px-2 py-2 rounded hover:bg-[#334155] text-sm text-slate-300 hover:text-white flex items-center gap-2">
+                        <i class="fa-solid fa-globe w-4 text-center"></i> Public Site
+                    </a>
+                </li>
+                <li>
+                    <a href="pitch_deck.html" target="_blank"
+                        class="block px-2 py-2 rounded hover:bg-[#334155] text-sm text-slate-300 hover:text-white flex items-center gap-2">
+                        <i class="fa-solid fa-presentation-screen w-4 text-center"></i> Pitch Deck
+                    </a>
+                </li>
+                <li>
+                    <a href="../index_v1.html" target="_blank"
+                        class="block px-2 py-2 rounded hover:bg-[#334155] text-sm text-slate-300 hover:text-white flex items-center gap-2">
+                        <i class="fa-solid fa-file-invoice w-4 text-center"></i> Original v1
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- TOC Container -->
+        <div class="p-4">
+            <h3 class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3 px-2">Manual Sections</h3>
+            <nav id="toc" class="space-y-1 text-sm"></nav>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-y-auto relative scroll-smooth bg-[#0f172a]" id="main-content">
+        <div class="max-w-4xl mx-auto px-8 py-12">
+            <!-- Content Injection Point -->
+            <div id="manual-content" class="prose prose-invert prose-lg">
+                <div class="flex items-center justify-center h-64 text-slate-500">
+                    <i class="fa-solid fa-circle-notch fa-spin text-3xl mr-3"></i> Loading Manual Data...
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Data Islands (Populated by Python Script) -->
+    <!-- MUST MATCH embed_docs.py REGEX -->
+    <script id="raw-manual" type="text/markdown">
+# CEBU LOOP MOBILITY CORP: MASTER EXECUTION FIELD MANUAL
+
+**Version:** 5.7 (Ops-Refined)
+**Date:** January 2026
+**Location:** Cebu City
+**Command Center:** Honolulu (Brian) & Cebu (Joy)
+
+---
+
+## 1. BUSINESS MODEL: SELF-DRIVE FIRST
+
+> **STRATEGY**: Launch with **self-drive only** (customer drives, no driver provided). This **eliminates LTFRB franchise requirements** and allows launch in **6-8 weeks**.
+
+| Phase | Model | LTFRB Required? |
+|-------|-------|-----------------|
+| **Launch (Now)** | Self-Drive Only | ❌ NO |
+| **Expansion (Later)** | Add Driver Option | ✅ YES (See Phase 5) |
+
+**Legal Basis**: Self-drive car rentals where customers operate the vehicle for private use are not classified as public utility vehicles (PUVs) and do not require LTFRB franchise.
+
+---
+
+## 2. CAPITAL PRESERVATION STRATEGY
+
+**Objective**: Minimize fixed costs. Only essential infrastructure.
+
+* **Official Business Address**: Virtual Office (₱500-800/month)
+* **Meeting Space**: Virtual office meeting rooms or hotel lobbies
+* **Protocols**:
+  * **NO** Commercial Leasing beyond virtual office until Fleet Acquisition
+  * **NO** Long-term Lease Contracts
+  * **NO** Capital Asset Purchases until Phase 0 is passed
+
+---
+
+## 3. THE REMOTE COMMAND PROTOCOL
+
+### The "Golden Window" (8:00 AM - 2:00 PM Cebu)
+
+| Cebu Time | Hawaii Time | Action |
+| :--- | :--- | :--- |
+| 08:00 AM | 02:00 PM (-1 Day) | Daily Command Sync |
+| 09:00 AM - 12:00 PM | 03:00 PM - 06:00 PM | Field Execution |
+| 12:00 PM - 01:00 PM | 06:00 PM - 07:00 PM | Banking Hour |
+
+---
+
+## 4. THE EXECUTION ROADMAP
+
+### PHASE 0: THE BAG BUILDER (Day 0)
+
+**Goal**: Secure virtual office, verify documents, gather assets.
+
+#### Step 1: Buy Supplies
+
+* **[ ] Action: Buy Logistics** (Envelopes, Pens, Clips)
+
+#### Step 2A: Verify Pre-Existing Documents
+
+* **[ ] Pre-Flight Document Check**:
+  * Joy's Passport (expiry > 6 months)
+  * Joy's TIN ID (Green Card)
+  * Brian's Passport Scan + Specimen Signature
+  * Utility Bill (< 3 months old)
+
+#### Step 2B: Obtain New Documents
+
+* **[ ] Secure Virtual Office Contract** (₱500-1500/month)
+* **[ ] Professional ID Photos** (10x 1x1, 10x 2x2)
+* **[ ] Community Tax Certificate (Cedula)**
+
+#### Step 2C: Legal Consultation ⚖️
+
+* **[ ] Action: Schedule Attorney Consultation**:
+  * Purpose: Verify self-drive model compliance
+  * Questions to ask:
+    * Confirm no LTFRB needed for self-drive
+    * Review rental contract template
+    * Advise on insurance requirements
+    * Advise on liability waiver language
+  * Budget: ₱3,000-5,000 consultation fee
+
+#### Step 3: Photocopy & Print
+
+* **[ ] Photocopy Personal Docs**: Passport x5, TIN x3
+* **[ ] Print Investor Docs**: Brian Passport x5, Signature Sheet x5
+* **[ ] Print Location Docs**: Virtual Office Contract x3
+
+#### Step 4: Label & Assemble Envelopes (A-D)
+
+---
+
+### PHASE 1: THE LEGAL SHIELD (Week 1)
+
+**Goal**: Legal Entity Creation & Banking.
+
+#### DAY 1: Monday
+
+* **[ ] Action: Register Company Name (SEC ESPARC)**
+* **[ ] Field: Secure Barangay Clearance**
+
+#### DAY 2: Tuesday
+
+* **[ ] Remote: Verify Capital Readiness** (₱625k)
+* **[ ] Field: Open TITF Savings Account (UnionBank)**
+* **[ ] Remote: Wire Paid-Up Capital**
+
+#### DAY 3: Wednesday
+
+* **[ ] Remote: Confirm Wire Receipt** (24-48 hrs)
+* **[ ] Field: Secure Bank Certificate**
+* **[ ] Action: Notarize Treasurer's Affidavit**
+* **[ ] Online: Finalize SEC Application**
+
+#### DAY 5: Friday
+
+* **[ ] Field: Asset Scouting** (BYD Quote + Parking)
+* **[ ] Action: Attorney Consultation** (If not done in Phase 0)
+
+---
+
+### PHASE 2: THE "PAPER HUB" (Weeks 2-4)
+
+**Goal**: Complete business registration.
+
+#### Week 2: SEC Release
+
+* [ ] Monitor email for SEC Payment Assessment
+* [ ] Pay SEC Fees
+* [ ] Receive Certificate of Incorporation
+
+#### Week 3: Licensing
+
+* [ ] **Field: BIR Registration** → COR 2303
+* [ ] **Field: Mayor's Permit** (City Hall)
+* [ ] **Action: Finalize Rental Contract** (with attorney review)
+
+#### Week 4: Corporate Account + Insurance
+
+* [ ] **Field: Bank Conversion** (TITF → Corporate Checking)
+* [ ] **Action: Secure Vehicle Insurance** (See Section 5A for Template)
+* [ ] **Action: Secure Parking/Garage Contract**
+
+---
+
+### PHASE 3: ASSET ACQUISITION (Weeks 5-7)
+
+#### Week 5: Order Fleet
+
+* [ ] Brian wires 20% Downpayment
+* [ ] Joy pays BYD Dealership - Order 5 Units
+* [ ] Order GPS Trackers (Teltonika)
+
+#### Week 6: LTO Registration
+
+* [ ] **Field: Register Vehicles "For Hire"** at LTO
+  * Required for legal car rental operation
+  * Get special "For Hire" plates
+* [ ] Install GPS & IoT Sims
+
+#### Week 7: Pickup & Setup
+
+* [ ] Pickup 5 BYD Seagull Units
+* [ ] Car Wrapping (Branding)
+* [ ] App/Booking System Testing
+
+---
+
+### PHASE 4: LAUNCH (Weeks 8-9) 🚀
+
+* [ ] **Action: Finalize Rental Terms & Waivers**
+* [ ] **Action: Setup Payment Processing** (GCash, Maya, Card)
+* [ ] **Event: SOFT LAUNCH** (Invite-only beta)
+* [ ] **Event: GRAND LAUNCH** (Go Live)
+
+---
+
+### PHASE 5: WITH-DRIVER EXPANSION (Future)
+
+> **Deferred until after successful self-drive launch.**
+
+#### LTFRB Application
+
+* [ ] Compile PA Payload (SEC, BIR, Bank Cert, Garage, Insurance)
+* [ ] Submit PA at LTFRB Region 7 (EVIDA Priority)
+* [ ] Receive Provisional Authority
+
+---
+
+## 5. INSURANCE & ASSETS (Templates)
+
+### A. Insurance Inquiry Email Template
+
+**To**: Malayan, Standard Insurance, Prudential, Mercantile
+**Subject**: RFQ: Comprehensive Insurance for Car Rental Fleet (BYD Seagull)
+
+> Dear [Name/Company],
+>
+> I am writing on behalf of **Cebu Loop Mobility Corp.** We are acquiring a fleet of **5 units of BYD Seagull (2025 Model)** for our self-drive car rental operations in Cebu City.
+>
+> We request a formal quotation for **Comprehensive Motor Vehicle Insurance** with the following inclusion:
+>
+> * **Own Damage & Theft**: Full coverage
+> * **Acts of Nature (AON)**: Inclusion required
+> * **Passenger Personal Accident Insurance (PPAI)**: Minimum ₱200k per seat
+> * **Third Party Liability (CTPL)**: Required
+>
+> Please provide your best fleet rate for 5 units.
+>
+> Regards,
+> Joy
+> Cebu Loop Mobility Corp.
+
+---
+
+## 6. OPERATIONS MANUAL (POST-LAUNCH)
+
+### A. Approval Thresholds
+
+* **>₱10,000**: Brian must approve (Purchase Order Token required)
+* **<₱10,000**: Joy approves (Daily Limit)
+
+### B. Cleaning Protocol (The "No-Damage" Rule)
+
+> **⚠️ WARNING**: Do NOT use Alcohol or Bleach on vehicle interiors (dashboard, leather, buttons). It destroys the UV coating.
+
+1. **Vacuum**: 2 minutes. Floor mats and seats.
+2. **Disinfect (Surface)**: Use **UVC Wand** for 15 seconds over steering wheel, gear shifter, and door handles.
+3. **Wipe (Stains)**: Use **Microfiber Cloth** with:
+    * Mild soapy water (Drop of dish soap in water spray)
+    * OR dedicated "Interior Car Cleaner" (e.g., Microtex)
+    * *Baby Wipes* are acceptable for quick spot cleaning.
+4. **Plug**: Connect AC Charger.
+
+### C. Vehicle Release Protocol
+
+1. **Verify ID**: Check Physical Driver's License (No photo copies).
+2. **Photo Evidence**: Take photo of Client holding License next to car.
+3. **Walkaround**: Record 30-sec video walking around car *with* client, pointing out existing scratches.
+4. **Waiver**: Client signs digital liability waiver.
+
+### D. Emergency Response
+
+* **Accident**:
+    1. Ensure safety. Call 911 if injured.
+    2. Driver must take photos of damage + Third party involved.
+    3. Call Joy immediately. Joy calls Insurance.
+* **Theft**:
+    1. Call Joy.
+    2. Joy tracks GPS position (Teltonika).
+    3. Brian triggers **Remote Engine Kill**.
+
+</script>
+    <script id="raw-decisions" type="text/markdown">
+# CRITICAL DECISIONS LOG
+
+**Status**: Open Questions for Founder Review
+**Date**: January 2026
+
+This document tracks high-stakes decisions that require debate or selection between Option A and Option B. These decisions block specific phases of the `MASTER_EXECUTION_FIELD_MANUAL`.
+
+---
+
+## 1. STRATEGY: The "Airport Drain" Solution
+
+**Context**: High demand for Airport -> City trips will leave the Airport hub empty and the City hub full. We need a rebalancing mechanism.
+
+* **Option A: The Reverse Incentive (User-Led)**
+  * *Mechanism*: Offer 50% discount to customers willing to drive City -> Airport.
+  * *Pro*: Zero operational cost.
+  * *Con*: Unreliable. Users fly when they need to, not when we pay them to.
+* **Option B: The Deadhead Run (Staff-Led)**
+  * *Mechanism*: Fleet Runner drives car to Airport, takes Angkas (MotoTaxi) back.
+  * *Pro*: Guaranteed availability.
+  * *Con*: Cost of Angkas fare (~₱150) + Staff time.
+* **Required Decision Date**: Week 11 (Before App Config)
+
+---
+
+## 2. TECHNOLOGY: The Core Platform Vendor
+
+**Context**: We need a white-label rental platform for bookings, payments, and digital keys.
+
+* **Option A: RentCentric**
+  * *Status*: Industry veteran.
+  * *Pro*: Deep feature set, proven API for keyless entry.
+  * *Con*: Older UI, potentially expensive per-vehicle pricing.
+* **Option B: Navotar**
+  * *Status*: Newer challenger.
+  * *Pro*: Mobile-first design, potentially better "modern" feel.
+  * *Con*: Integration with Teltonika hardware for remote unlock needs verification.
+* **Required Decision Date**: Week 5 (See Roadmap)
+
+---
+
+## 3. LEGAL: Regulatory Classification
+
+**Context**: We are operating a chauffeured service ("Rent-a-Car with Driver") but using an App.
+
+* **Option A: Pure "Rent-a-Car" (The Loophole)**
+  * *Mechanism*: Every booking is a "Lease Contract".
+  * *Risk*: If customers perceive it as a Taxi (TNVS), LTFRB may crackdown.
+  * *Defense*: We do not charge per km/minute, we charge per "Block" (Lease).
+* **Option B: TNVS (The "Grab" Route)**
+  * *Mechanism*: Apply for TNC accreditation.
+  * *Risk*: Extremely long timeline, moratoriums, high competition with Grab.
+* **Recommendation**: Stick to Option A (Rental) for Launch.
+
+---
+
+## 4. FINANCE: The "Brian Veto" Threshold
+
+**Context**: Current policy requires Brian's digital approval for any expense > ₱10,000.
+
+* **Question**: Is this too low?
+  * *Scenario*: If a car needs 4 tires (₱15k), Joy visits valid vendor, but Brian is asleep (Hawaii time).
+  * *Risk*: Operations halt for 8 hours.
+  * *Proposal*: Raise auto-approval limit to ₱20,000 for "Emergency Repairs" specifically?
+
+---
+
+## 5. ASSETS: The Typhoon "Safe Haven"
+
+**Context**: We need a high-ground parking garage during Signal No. 1.
+
+* **Option A: Ayala Center Cebu (Level 5+)**
+  * *Pro*: Massive capacity, secure.
+  * *Con*: Public access, paid hourly parking.
+* **Option B: Marco Polo Hotel (Nivel Hills)**
+  * *Pro*: Brian's residence, very high ground (mountain).
+  * *Con*: Limited slots, might annoy HOA if we dump 5 branded cars there.
+
+---
+
+</script>
+
+    <script>
+        // Render Markdown
+        document.addEventListener('DOMContentLoaded', () => {
+            const manualContent = document.getElementById('raw-manual').textContent;
+            const container = document.getElementById('manual-content');
+
+            // Clean up the placeholder if script didn't run yet
+            if (manualContent.includes('VER5_7_MANUAL_CONTENT')) {
+                // Do nothing
+                return;
+            }
+
+            // Render
+            container.innerHTML = marked.parse(manualContent);
+
+            // Generate TOC
+            const toc = document.getElementById('toc');
+            const headers = container.querySelectorAll('h1, h2, h3');
+            headers.forEach((header, index) => {
+                header.id = `section-${index}`;
+                const link = document.createElement('a');
+                link.href = `#section-${index}`;
+                link.textContent = header.textContent;
+                link.className = `block px-2 py-1.5 rounded hover:bg-[#334155] text-slate-400 hover:text-white truncate transition-colors ${header.tagName === 'H1' ? 'font-bold text-white pl-2' : header.tagName === 'H2' ? 'pl-4' : 'pl-6 text-xs'}`;
+                toc.appendChild(link);
+            });
+        });
+    </script>
 </body>
 
 </html>
