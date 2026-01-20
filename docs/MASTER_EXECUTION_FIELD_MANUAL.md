@@ -1,9 +1,9 @@
 # CEBU LOOP MOBILITY CORP: MASTER EXECUTION FIELD MANUAL
 
-**Version:** 5.0 (Consolidated Field Guide)
+**Version:** 5.1 (Granular Execution Mode)
 **Date:** January 2026
-**Location:** Cebu City & Mactan, Philippines
-**Command Center:** Honolulu, Hawaii (Brian - UTC-10) & Cebu City (Joy - UTC+8)
+**Location:** Cebu City
+**Command Center:** Honolulu (Brian) & Cebu (Joy)
 
 ---
 
@@ -21,302 +21,213 @@
 
 ---
 
-## 2. THE REMOTE COMMAND PROTOCOL (HAWAII <-> CEBU)
+## 2. THE REMOTE COMMAND PROTOCOL
 
-The 18-hour time difference creates a "Follow-the-Sun" management style.
+### A. The "Golden Window" (Work Hours)
 
-### A. Team Availability & Schedules
-
-**Joy's Class Schedule (Spring 2026)**
-
-| Time Slot | Monday | Tuesday | Wednesday | Thursday | Friday |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **3:00 PM** | | **Start** | | **Start** | |
-| **4:30 PM** | **Start** | | **Start** | | |
-| **6:30 PM** | | | | | **Start** |
-
-> [!IMPORTANT]
-> **Operational Constraints**: All scheduling must adhere to Joy's strict hard stops due to university classes. Travel buffer of **1 hour** before class is mandatory.
-
-### B. The "Golden Window" (Brian's Afternoon / Joy's Morning)
-
-Joy works 8:00 AM – 3:00 PM Cebu (PHT). Brian is awake and active in Hawaii 2:00 PM – 9:00 PM (HST).
-
-**Safe Windows for External Meetings/Banks**:
-
-* **Mon/Wed**: 8:00 AM – 3:30 PM (Govt Processing)
-* **Tue/Thu**: 8:00 AM – 2:00 PM (Quick Errands - Short Day!)
-* **Friday**: 8:00 AM – 5:30 PM (Major Meetings/Site Visits)
+**Joy's Constraints**: Classes end 9:30 PM (Mon/Wed) and 6:30 PM (Tue/Thu/Fri). Field work must happen **8:00 AM - 2:00 PM**.
 
 | Cebu Time (Joy) | Hawaii Time (Brian) | Action |
 | :--- | :--- | :--- |
 | 08:00 AM | 02:00 PM (-1 Day) | **Daily Command Sync**: 15-min Video Call. Set the "One Major Goal." |
-| 09:00 AM - 12:00 PM | 03:00 PM - 06:00 PM | **Field Execution**: Joy visits SEC/LTO/Malls. Brian monitors via Viber. |
-| 12:00 PM - 01:00 PM | 06:00 PM - 07:00 PM | **The Banking Hour**: Joy submits RFPs. Brian approves via banking token. |
-| 01:00 PM - 03:00 PM | 07:00 PM - 09:00 PM | **Wrap Up**: Joy scans receipts to Drive. Shift Ends. |
+| 09:00 AM - 12:00 PM | 03:00 PM - 06:00 PM | **Field Execution**: Government/Bank Queues. |
+| 12:00 PM - 01:00 PM | 06:00 PM - 07:00 PM | **The Banking Hour**: Joy submits RFPs. Brian approves via token. |
 
-### C. Command Rules
+### B. Command Rules
 
-* **Receipts**: No receipt, no reimbursement. Photos must be uploaded to Google Drive instantly.
-* **Signatories**: Brian is the Sole Signatory. All PH banking transactions must be cleared before 3:00 PM PHT.
-* **Viber Ops**: Use a dedicated "Cebu Loop Ops" Viber group for all live field updates.
+* **Receipts**: Upload to Drive immediately. No upload = No reimbursement.
+* **Signatories**: Brian is Sole Signatory.
 
 ---
 
-## 3. LEGAL & ADMIN FOUNDATION
+## 3. THE EXECUTION ROADMAP (DAY-BY-DAY)
 
-### A. Pre-Incorporation Checklist (The "Physical Bag")
+This is the core instructional guide. Follow in exact order.
 
-Joy must have these distinct folders ready in a physical bag at all times.
+### PHASE 0: THE BAG BUILDER (Day 0 - Immediate)
 
-**FOLDER A: PERSONAL IDENTITY (Originals + 3 Photocopies)**
+**Goal**: Assemble the "Physical Bag" of assets required for all future steps. Do this TODAY.
 
-* [ ] **Valid Government IDs (Joy)**: Passport, UMID, or Driver’s License.
-* [ ] **TIN ID / Verification Slip**: Must be verified with BIR.
-* [ ] **Proof of Billing**: Meralco/VECO or Water bill matching your residence address.
-* [ ] **1x1 and 2x2 ID Photos**: White background (Keep 10 copies of each).
-* [ ] **Community Tax Certificate (Cedula)**: Current year. Buy at City Hall or Barangay.
+* **[ ] Buy Supplies**:
+  * 4x Long Brown Envelopes (Label: A-Identity, B-Investor, C-Assets, D-Legal)
+  * 1x Blue Ballpoint Pen (Official Signatures)
+  
+* **[ ] Fill Folder A (Personal Identity)**:
+  * [ ] Photocopy Joy's Valid ID (Passport/UMID) x5.
+  * [ ] Photocopy TIN ID x3.
+  * [ ] Print Proof of Billing (Meralco/Water) x3.
+  * [ ] Get 1x1 and 2x2 Photos (White Background) - Keep 10 copies.
+  * [ ] Buy Community Tax Cert (Cedula) at Barangay Hall.
 
-**FOLDER B: INVESTOR DATA (Brian & Third Parties)**
+* **[ ] Fill Folder B (Investor Identity)**:
+  * [ ] Print Color Scan of Brian's Passport (Bio Page) x5.
+  * [ ] Print Brian's Specimen Signature Sheet x5.
 
-* [ ] **Passport Copy**: Clear color scan of Bio-page (Apostilled if signed abroad).
-* [ ] **TIN (Foreign)**: If Brian has a PH TIN. If not, Lawyer generates a "One-Time TIN" (EO 98).
-* [ ] **Specimen Signature Sheet**: Brian signs a blank sheet 5 times.
-
-**FOLDER C: LOCATION ASSETS**
-
-* [ ] **Proof of Residence (Home Office)**: Copy of Deed of Sale / CCT for Marco Polo unit.
-* [ ] **HOA Clearance / Letter of No Objection**: Certificate from Marco Polo PMO.
-* [ ] **Barangay Clearance**: Specific to Nivel Hills / Lahug (Residential use).
-
-**FOLDER D: CORPORATE DRAFTS (The "Legal Pack")**
-
-* [ ] **Articles of Incorporation (AOI)**: Purpose must include "Rent-a-Car" and "Transport Services".
-* [ ] **By-Laws**: Standard Corporate Governance rules.
-* [ ] **Treasurer's Affidavit**: Notarized statement that 25% of capital is paid up.
-* [ ] **Bank Certificate of Deposit**: Original copy showing paid-up capital in TITF account.
-
-### B. Legal Counsel Strategy ("Lean Compliance")
-
-We do not hire lawyers for standard filing. We hire them for **Architecture, Defense, and Complex Compliance**.
-
-**When to Hire (Triggers)**
-
-* **Co-Founder Conflict**: If SHA involves complex vesting/anti-dilution.
-* **Franchise Denial**: If LTFRB issues a "Notice of Defect" or moratorium.
-* **Fundraising**: Series A/VC Term Sheet reviews.
-
-**Hiring Script**: "We are a bootstrapped transport tech startup. We handle all ground-level admin ourselves. We are looking for a **Retainer-based** relationship specifically for **High-Level Advisory** and **Crisis Management**. Do you have experience with **LTFRB franchises** specifically?"
-
-### C. Shareholders' Agreement (SHA) Key Terms
-
-* **Capital**: Authorized 10M, Subscribed 2.5M, Paid-Up 625k.
-* **Split**: Brian (60%), Joy (40%).
-* **Veto Rights (Brian)**: Issuance of new shares, Debt >100k, Sale of assets/company, Change of business purpose, Hiring C-Level.
-* **Vesting**: 3-year lock-up period.
-* **Exit**: Drag-Along (Brian can force sale) and Tag-Along (Joy can join sale) rights.
+* **[ ] Fill Folder C (Location)**:
+  * [ ] Print Copy of Condo Title (CCT) / Deed of Sale for Marco Polo unit.
+  * [ ] **Action**: Request "Certificate of No Objection" from Marco Polo PMO for "Home Office Use".
 
 ---
 
-## 4. THE 16-WEEK LAUNCH ROADMAP
+### PHASE 1: THE LEGAL SHIELD (Week 1 - The Sprint)
 
-**Start Date**: Week 1 (Immediate) | **Target Launch**: Week 16
+**Goal**: Legal Entity Creation & Banking.
 
-### PHASE 1: THE LEGAL SHIELD (Weeks 1-3)
+#### DAY 1: Monday - The Foundation
 
-**Goal**: Official Existence & Bank Authority
+* **[ ] 08:00 AM Sync**: Confirm "Cebu Loop Mobility Corp" as name.
+* **[ ] 09:00 AM Online**: Register name at **SEC ESPARC** (<https://esparc.secy.gov.ph>).
+  * *Drafting*: Input Purpose Clause: "To engage in the business of transportation services..."
+  * *Output*: Download "Name Reservation Slip". **Add to Folder D**.
+* **[ ] 01:00 PM Field**: Visit Barangay Hall (Lahug).
+  * *Bring*: Folder C (Title + PMO Letter).
+  * *Action*: Apply for "Barangay Clearance for Business".
+  * *Pay*: ~₱500 fee. **Photo Receipt**.
+  * *Output*: Barangay Clearance. **Add to Folder D**.
 
-#### 🔴 Week 1 Sprint: The Rapid Launch Protocol (Days 1–7)
+#### DAY 2: Tuesday - The Bank (Critical)
 
-* **Day 1 (Legal)**: Reserve Name "Cebu Loop Mobility Corp" (SEC ESPARC). Get Barangay Clearance. Setup Home Office.
-* **Day 2 (Bank)**: Open "Treasurer-in-Trust" (TITF) account at UnionBank/BPI (9:00 AM). Deposit paid-up capital. Apply for Mayor's Permit.
-* **Day 3 (Digital)**: Buy `cebuloop.com` (Porkbun). Setup G-Suite emails. Create Viber Group.
-* **Day 4 (Recruit)**: Post "Fleet Runner" ad (Mynimo/FB). Email CCCI for membership.
-* **Day 5 (Scout)**: Visit BYD Cebu (Inspect Seagull, Get Quote). Scout Parking (Ayala/IT Park).
-* **Day 6/7 (Review)**: Scan all receipts to Drive. Weekly Planning Sync.
+* **[ ] 08:00 AM Sync**: Verify Paid-Up Capital amount (₱625,000) is ready in Brian's US Transferwise/Bank.
+* **[ ] 09:00 AM Field**: Go to UnionBank (Ayala/IT Park).
+  * *Bring*: Folder A (Joy IDs), Folder B (Brian Passport), Folder D (Name Reservation).
+  * *Action*: Open "Treasurer-in-Trust" (TITF) Savings Account.
+  * *Note*: If they ask for AOI, say "We are in process, this is widely accepted for TITF."
+  * *Output*: Bank Account Number & Deposit Slip.
+* **[ ] 06:00 PM Remote**: Brian wires ₱625,000 to the new TITF account.
 
-#### Week 2
+#### DAY 3: Wednesday - The Legal Docs
 
-* [ ] Draft Articles of Incorporation & By-Laws
-* [ ] Circulate SHA for signature
-* [ ] Submit Documents to SEC
+* **[ ] 08:00 AM Sync**: Check if Wire Transfer arrived.
+* **[ ] 09:00 AM Field**: Go back to Bank.
+  * *Action*: Request **Bank Certificate of Deposit** (Original).
+  * *Output*: Bank Cert. **Add to Folder D**.
+* **[ ] 10:00 AM Admin**: Notarize **Treasurer's Affidavit**.
+  * *Draft*: Use Template. State ₱625k is deposited.
+  * *Action*: Joy signs before Notary.
+  * *Output*: Notarized Affidavit. **Add to Folder D**.
+* **[ ] 01:00 PM Online**: Finalize SEC Application.
+  * *Upload*: Signed AOI, By-Laws, Treasurer's Affidavit, Bank Cert.
+  * *Action*: Submit for Review.
 
-#### Week 3
+#### DAY 4: Thursday - Digital Assets
 
-* [ ] **GATE**: Receive SEC Certificate of Incorporation
-* [ ] Convert Bank Account to Corporate Account (Brian as Sole Signatory)
-* [ ] Apply for BIR Registration (Form 2303) & Receipts
+* **[ ] 09:00 AM**: Buy Domain `cebuloop.com` (Porkbun).
+* **[ ] 10:00 AM**: Setup Google Workspace (`joy@`, `brian@`).
+* **[ ] 11:00 AM**: Create "Cebu Loop Ops" Viber Group. Add Brian.
 
-### PHASE 2: THE "PAPER HUB" (Weeks 4-6)
+#### DAY 5: Friday - The Fleet Scout
 
-**Goal**: Operational Agreements
+* **[ ] 09:00 AM Field**: Visit BYD Cebu Dealership.
+  * *Action*: Inspect Seagull Unit. Sit inside. Check legroom.
+  * *Ask*: "What is the lead time for 5 white units?"
+  * *Output*: Official Quotation (Hard Copy). **File in Folder C**.
+* **[ ] 01:00 PM Field**: Scout Parking.
+  * *Action*: Drive/Walk to Ayala Center Cebu Basement Parking.
+  * *Ask*: "Do you offer monthly overnight rates for corporate fleets?"
 
-#### Week 4
+---
 
-* [ ] Meeting with Ayala Center Management (Parking/Hub)
-* [ ] Meeting with MCIA (Airport) Management
-* [ ] Secure LOIs (Letters of Intent)
+### PHASE 2: THE "PAPER HUB" (Weeks 2-6)
 
-#### Week 5
+**Goal**: Convert "Paper Corp" to "Operating Business".
 
-* [ ] Finalize Software Vendor Selection (RentCentric vs Navotar)
-* [ ] Setup Website Landing Page & SEO
-* [ ] Apply for Business Permit (LGU)
+#### Week 2: SEC Release
 
-#### Week 6
+* [ ] **Monitor**: Check email daily for SEC Payment Assessment.
+* [ ] **Pay**: Pay SEC Fees via GCash/Landbank.
+* [ ] **Print**: Receive **Certificate of Incorporation**. **Add to Folder D**.
+  * *Status Change*: We are now a Legal Person.
 
-* [ ] Finalize Insurance proposal for Fleet
-* [ ] **GATE**: Business Permit Issued
-* [ ] **Action**: Scout LTFRB Region 7 for specific list. Secure Garage Lease/Authority.
+#### Week 3: Tax & Mayor
+
+* [ ] **BIR (Bureau of Internal Revenue)**:
+  * Bring SEC Cert to RDO (Revenue District Office).
+  * File Form 1903 (Registration).
+  * Pay Registration Fee (₱500).
+  * *Output*: **Certificate of Registration (COR 2303)**.
+* [ ] **Mayor's Permit**:
+  * Bring Barangay Clearance + SEC Cert + Lease (Home Office) to City Hall.
+  * Pay Assessment.
+
+#### Week 4: The Corporate Account
+
+* [ ] **Bank Trip**: With SEC Cert + BIR COR in hand.
+* [ ] **Convert**: Change TITF Account to **Corporate Checking Account**.
+* [ ] **Access**: Enroll Brian in Corporate Online Banking (Sole Approver).
+* [ ] **Token**: Request physical/digital token.
+
+#### Week 5: Vendor Lock-in
+
+* [ ] **Software**: Sign contract with RentCentric or Navotar (decide based on Decision Log).
+* [ ] **Insurance**: Secure "Passenger Personal Accident Insurance" (PPAI) quote for LTFRB.
+
+#### Week 6: The Garage Access
+
+* [ ] **Lease**: If Marco Polo prohibits fleet parking, sign Lease Contract for small garage/lot (required for LTFRB).
+* [ ] **Zoning**: Get Zoning Clearance for the Garage location.
+
+---
 
 ### PHASE 3: ASSET COMMITMENT (Weeks 7-10)
 
-**Goal**: Buying the Hardware
+**Goal**: Spending Money.
 
-#### Week 7
+#### Week 7: Buying the Cars
 
-* [ ] **GATE**: Downpayment for 5 BYD Seagull units (20%)
-* [ ] Order Teltonika GPS/Telematics units
+* [ ] **Wire**: Brian sends Downpayment (20%) funds.
+* [ ] **Pay**: Joy pays BYD Dealership.
+* [ ] **Order**: Joy orders Teltonika GPS units online.
 
-#### Week 8
+#### Week 8: The Franchise (LTFRB)
 
-* [ ] **Apply for LTFRB Provisional Authority (PA)** (See Protocol below)
-* [ ] Interview Fleet Runners
+* *Prerequisite*: We need the Unit Details (Engine/Chassis Number) from BYD even if cars aren't released yet.
+* **[ ] Compile LTFRB Payload**:
+  * 4 Copies of: SEC, BIR, Bank Cert, Garage Lease, Zoning, Fleet Photos.
+* **[ ] Submit**: Walk-in to LTFRB Region 7.
+  * *Note*: Use "EVIDA Law" priority lane.
+  * *Pay*: Filing Fees.
+* **[ ] Output**: "Order of Payment" and "Notice of Hearing".
 
-#### Week 9
+#### Week 10: Asset Receipt
 
-* [ ] Office Setup / Command Center check
-* [ ] Finalize Charging Partners (VECO/Malls)
-
-#### Week 10
-
-* [ ] Unit Release from BYD
-* [ ] Install Teltonika Hardware & Cut-off relays
-
-### PHASE 4: INTEGRATION & LAUNCH (Weeks 11-16)
-
-**Goal**: Go Live
-
-#### Week 11-12
-
-* [ ] Car Wrapping ("Cebu Loop" Branding)
-* [ ] Fleet Runner Training
-* [ ] System Integration Test (GPS <-> App <-> Payment)
-
-#### Week 13-16
-
-* [ ] Dry Run (Internal) -> Soft Launch (F&F) -> **GRAND LAUNCH**
+* [ ] **Pickup**: Receive 5 BYD Seagull units.
+* [ ] **Install**: Technician installs Teltonika + Kill-switch.
+* [ ] **Sim**: Insert Smart/Globe IoT Sims.
 
 ---
 
-## 5. REGULATORY OPERATIONS (LTFRB APPLICATION)
+### PHASE 4: LAUNCH (Weeks 11-16)
 
-**Goal**: Secure **Provisional Authority (PA)** immediately (allows operation for 90 days) while CPC processes.
+#### Week 11: Branding
 
-### The "EVIDA Law" (RA 11697) Advantage
+* [ ] **Wrap**: Car wrapping shop applies "Cebu Loop" decals.
+* [ ] **Uniforms**: Buy Polos and print Logos for Runners.
 
-Electric Vehicle operators are entitled to **Expedited Processing**. When filing, explicitly state: *"This is a 100% Electric Fleet Application entitled to priority processing under RA 11697."*
+#### Week 12: The Human Element
 
-### Application Packet (4 Sets: 1 Original + 3 Photocopies)
+* [ ] **Train**: Fleet Runners practice the "5-Star Clean" protocol.
+* [ ] **Test**: Dry run of App Booking -> Unlock -> Drive -> Return.
 
-* **Verified Application Form**: Requesting "Issuance of New CPC for Rent-a-Car Service".
-* **Affidavit of Undertaking**: Compliance promise.
-* **Legal Docs**: SEC Cert, AOI, By-Laws, Operator's Data Sheet.
-* **Financial Docs**: Bank Certificate + Affidavit of New Business.
-* **Garage Docs**: Land Title/Lease + LGU Zoning + Map + Photos.
-* **Unit Docs**: LTO OR/CR + Photos (with newspaper for date proof) + Stencils.
-  * *No Unit Yet?* Use "Affidavit of Undertaking" regarding unit compliance if allowed, usually requires OR/CR for final PA.
+#### Week 16: Grand Launch
 
-### The Process (Region 7 Walk-In)
-
-* **Scout**: Get checklist from Public Assistance Desk.
-* **File**: Submit "Offer of Evidence".
-* **Pay**: Filing Fees & Legal Research Fees.
-* **Wait**: Receive "Notice of Hearing" and "Order of Payment".
-* **Motion**: File "Motion for Issuance of Provisional Authority".
-
-> [!WARNING]
-> **The "Colorum" Trap**: Operating with a driver *before* the PA is issued is illegal. Fine is P200k/car. **Do not launch until PA is in hand.**
+* [ ] **Go Live**: Open App to public.
 
 ---
 
-## 6. FINANCIAL GATES (THE "BRIAN VETO")
+## 4. OPERATIONS MANUAL (POST-LAUNCH)
 
-**Authority**: Brian Shukri (Treasurer).
+### A. The "Brian Veto"
 
-### Banking Controls
+* **>₱10k**: Brian must approve.
+* **<₱10k**: Joy approves.
 
-* **Primary**: UnionBank Corp Account. Brian = Sole Signatory (Token approval). Joy = View/Prep Only.
-* **Petty Cash**: GCash/Maya Cards for runners (Max P5k balance).
-* **Workflow**: Joy preps by 12PM -> Brian approves by 3PM.
+### B. Cleaning Protocol
 
-### Expenditure Limits
+1. **Vac**: 2 mins.
+2. **Wipe**: Alcohol/UVC.
+3. **Plug**: AC Charge.
 
-| Expense Amount | Required Approval |
-| :--- | :--- |
-| **< ₱1,000** | Joy (Auto-approved for Ops) |
-| **₱1,000 - ₱10,000** | Joy (Requires Viber Notification) |
-| **> ₱10,000** | **BRIAN MUST APPROVE** (Digital Sign-off) |
-| **Any Capital Asset** | **BRIAN MUST APPROVE** |
+### C. Emergency
 
-### Loan Repayment ("The Sweep")
-
-* **Senior Debt**: ₱1.75M Loan from Brian.
-* **Mechanism**: 100% of Net Income (minus P50k Ops Reserve) is transferred to Brian monthly until debt is cleared.
-
----
-
-## 7. GRANULAR FLEET OPERATIONS
-
-### A. The Fleet Runner Logistics
-
-* **Motorcycle**: Runner uses own bike (125cc+). Paid ₱2,500/mo Allowance + Fuel.
-* **Uniform**: "Cebu Loop Crew" Polo + "Scan to Drive Me" QR on back.
-* **Field Kit**: Cordless Vacuum (Black+Decker), UVC Wand, 70% Alcohol, Admin App (GPS/SoC).
-
-### B. The "5-Star Clean" Protocol
-
-1. **De-trash & Vac**: 2-min blitz.
-2. **UVC Sweep**: 30-sec pass on touchpoints.
-3. **Reset**: AC neutral, Park, Plug-in.
-
-### C. Rebalancing (The Airport Problem)
-
-* **Reverse Incentive**: 50% off for users driving TO Airport.
-* **Deadhead Run**: Runner drives EV to Airport, parks, plugs in, takes Angkas (MotoTaxi) back to city hub. Company pays Angkas.
-
----
-
-## 8. RISK & EMERGENCY PROTOCOLS
-
-### A. Natural Disasters (Typhoons)
-
-* **Trigger**: PAGASA Signal No. 1.
-* **Action**: Pull all cars from street/ground parking.
-* **Safe Haven**: Move to **Ayala Center Cebu (Level 5+)** or **Marco Polo Hotel** (High ground).
-* **Rationale**: Parking fees < Flooded Battery.
-
-### B. Regulatory & Asset Risks
-
-* **LTO Risk**: Carry Provisional Authority (PA) papers in every glovebox.
-* **Theft**: Teltonika Remote Cut-Off triggers. Joy coordinates with CCPO.
-* **Dead Battery**: Rescue Runner with tow-hook or roadside assistance contract.
-
----
-
-## 9. APPENDIX: SCRIPTS, TEMPLATES & RESOURCES
-
-### Outreach & Hiring
-
-* **Legal**: [Email_Attorney_Meeting.md](./03_Outreach_Hiring/Email_Attorney_Meeting.md)
-* **Fleet Acquisition**: [Email_BYD_Fleet.md](./03_Outreach_Hiring/Email_BYD_Fleet.md) & [Call_Script_BYD_Cebu.md](./03_Outreach_Hiring/Call_Script_BYD_Cebu.md)
-* **Partnerships**: [Email_Mall_Leasing.md](./03_Outreach_Hiring/Email_Mall_Leasing.md), [Email_VECO_Partnership.md](./03_Outreach_Hiring/Email_VECO_Partnership.md)
-* **Government**: [Call_Script_LTFRB.md](./03_Outreach_Hiring/Call_Script_LTFRB.md)
-* **Hiring**: [Job_Posting_Fleet_Runner.md](./03_Outreach_Hiring/Job_Posting_Fleet_Runner.md)
-* **Directory**: [Master_Contact_Directory.md](./03_Outreach_Hiring/Master_Contact_Directory.md)
-
-### Technical Resources
-
-* **Hosting**: [Hosting_Guide.md](./01_Speed_and_Administration/Hosting_Guide.md)
-* **Financial Models**: [Capex_and_Profitability.html](./02_Strategy_Finance_Growth/Capex_and_Profitability.html)
-* **Design Assets**: [cebu_loop_logo.html](./04_Brand_Digital_Assets/cebu_loop_logo.html)
+* **Typhoon**: Move cars to **Ayala Level 5**.
+* **Theft**: Call Brian to trigger **Remote Engine Kill**.
