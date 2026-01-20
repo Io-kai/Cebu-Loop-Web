@@ -4,7 +4,7 @@ import re
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS_DIR = os.path.join(BASE_DIR, 'docs')
-INDEX_PATH = os.path.join(DOCS_DIR, 'index.html')
+INDEX_PATH = os.path.join(DOCS_DIR, 'dashboard.html')
 MANUAL_PATH = os.path.join(DOCS_DIR, 'MASTER_EXECUTION_FIELD_MANUAL.md')
 LOG_PATH = os.path.join(DOCS_DIR, 'CRITICAL_DECISIONS_LOG.md')
 

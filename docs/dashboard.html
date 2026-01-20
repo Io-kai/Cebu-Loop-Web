@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebu Loop | Command Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root {
+            --bg: #0a0e17;
+            --accent: #0ea5e9;
+            --accent-glow: rgba(14, 165, 233, 0.3);
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --phase-0: #94a3b8;
+            --phase-1: #ef4444;
+            --phase-2: #f59e0b;
+            --phase-3: #f97316;
+            --phase-4: #10b981;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(14, 165, 233, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-blob {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent), #10b981);
+            border-radius: 50%;
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .status-badge {
+            background: rgba(14, 165, 233, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 100px;
+            border: 1px solid var(--accent);
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
+
+        /* Hero Progress Section */
+        .hero {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-title h2 {
+            font-weight: 300;
+            color: var(--text-dim);
+        }
+
+        .hero-title span {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .progress-track {
+            height: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 100px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 8%;
+            /* Current Progress Placeholder */
+            background: linear-gradient(90deg, var(--accent), #10b981);
+            box-shadow: 0 0 15px var(--accent-glow);
+            transition: width 1s ease-out;
+        }
+
+        .progress-markers {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .card-icon {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            font-size: 1.2rem;
+        }
+
+        .card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 0.8rem;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: 0.2s;
+        }
+
+        .btn-outline {
+            border: 1px solid var(--card-border);
+            color: var(--text-main);
+            cursor: pointer;
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Phase Colors */
+        .card.p0 {
+            border-top: 4px solid var(--phase-0);
+        }
+
+        .card.p1 {
+            border-top: 4px solid var(--phase-1);
+        }
+
+        .card.p2 {
+            border-top: 4px solid var(--phase-2);
+        }
+
+        .card.p3 {
+            border-top: 4px solid var(--phase-3);
+        }
+
+        .card.p4 {
+            border-top: 4px solid var(--phase-4);
+        }
+
+        footer {
+            margin-top: 4rem;
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--card-border);
+            padding-top: 2rem;
+        }
+
+        /* Modal Styles */
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-backdrop.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-content {
+            background: #0f1623;
+            width: 90%;
+            max-width: 900px;
+            height: 85vh;
+            border-radius: 20px;
+            border: 1px solid var(--card-border);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-backdrop.active .modal-content {
+            transform: scale(1);
+        }
+
+        .modal-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--card-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .modal-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.2rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: 0.2s;
+            padding: 0.5rem;
+            line-height: 1;
+        }
+
+        .close-btn:hover {
+            color: #fff;
+        }
+
+        .modal-body {
+            padding: 2rem;
+            overflow-y: auto;
+            flex-grow: 1;
+            scroll-behavior: smooth;
+        }
+
+        /* Markdown Typography within Modal */
+        .prose {
+            color: var(--text-main);
+            max-width: 100%;
+        }
+
+        .prose h1,
+        .prose h2,
+        .prose h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: #fff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .prose h1 {
+            font-size: 2rem;
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 0.5rem;
+        }
+
+        .prose h2 {
+            font-size: 1.5rem;
+            color: var(--accent);
+            margin-top: 3rem;
+        }
+
+        .prose h3 {
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        }
+
+        .prose p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            color: #cbd5e1;
+        }
+
+        .prose ul,
+        .prose ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+        }
+
+        .prose li {
+            margin-bottom: 0.5rem;
+            color: #cbd5e1;
+        }
+
+        .prose strong {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .prose a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .prose a:hover {
+            text-decoration: underline;
+        }
+
+        .prose blockquote {
+            border-left: 4px solid var(--accent);
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            color: var(--text-dim);
+            font-style: italic;
+            background: rgba(14, 165, 233, 0.05);
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .prose code {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+            color: #e2e8f0;
+        }
+
+        .prose pre {
+            background: #0a0e17;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--card-border);
+        }
+
+        .prose pre code {
+            background: none;
+            padding: 0;
+            color: #cbd5e1;
+        }
+
+        .prose table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+
+        .prose th,
+        .prose td {
+            padding: 0.75rem;
+            border: 1px solid var(--card-border);
+            text-align: left;
+        }
+
+        .prose th {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--accent);
+        }
+
+        .prose hr {
+            border: 0;
+            border-top: 1px solid var(--card-border);
+            margin: 3rem 0;
+        }
+
+        /* Checkbox styling hacks for md */
+        .prose input[type="checkbox"] {
+            margin-right: 0.5rem;
+            accent-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo-area">
+                <div class="logo-blob"></div>
+                <h1>Cebu Loop</h1>
+            </div>
+            <div class="status-badge">Phase 0: Bag Builder</div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-title">
+                <h2>Launch Readiness</h2>
+                <span>8%</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="progress-markers">
+                <span>Phase 0</span>
+                <span>Phase 1</span>
+                <span>Phase 2</span>
+                <span>Phase 3</span>
+                <span>Launch</span>
+            </div>
+        </section>
+
+        <div class="grid">
+            <!-- Phase 0 -->
+            <div class="card p0">
+                <div class="card-header">
+                    <div class="card-icon">💼</div>
+                    <span class="status-badge"
+                        style="border-color: var(--phase-0); color: var(--phase-0);">Active</span>
+                </div>
+                <h3>The Bag Builder</h3>
+                <p>Day 0: Assemble Folder A-D. Get Personal IDs & Physical documents ready for field work.</p>
+                <a href="MASTER_EXECUTION_FIELD_MANUAL.md#phase-0-the-bag-builder-day-0---immediate"
+                    class="btn btn-outline">Explore Tasks</a>
+            </div>
+
+            <!-- Phase 1 -->
+            <div class="card p1">
+                <div class="card-header">
+                    <div class="card-icon">⚖️</div>
+                    <span class="status-badge"
+                        style="border-color: var(--card-border); color: var(--text-dim);">Locked</span>
+                </div>
+                <h3>Legal Shield</h3>
+                <p>Week 1-3: SEC Name Reservation, TITF Bank Account, and BIR Registration.</p>
+                <a href="MASTER_EXECUTION_FIELD_MANUAL.md#phase-1-the-legal-shield-week-1---the-sprint"
+                    class="btn btn-outline">Preview Sprint</a>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="card p2">
+                <div class="card-header">
+                    <div class="card-icon">📄</div>
+                    <span class="status-badge"
+                        style="border-color: var(--card-border); color: var(--text-dim);">Locked</span>
+                </div>
+                <h3>The Paper Hub</h3>
+                <p>Week 4-6: Secure Ayala/Airport LOIs, Mayor's Permit, and Software selection.</p>
+                <a href="MASTER_EXECUTION_FIELD_MANUAL.md#phase-2-the-paper-hub-weeks-2-6"
+                    class="btn btn-outline">Preview Checklist</a>
+            </div>
+
+            <!-- Decision Log -->
+            <div class="card" style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), transparent);">
+                <div class="card-header">
+                    <div class="card-icon">💡</div>
+                </div>
+                <h3>Decision Log</h3>
+                <p>High-stakes strategic choices that require Founder sync (Airport strategy, Vendor choice).</p>
+                <a href="CRITICAL_DECISIONS_LOG.md" class="btn btn-outline"
+                    style="border-color: var(--accent); color: var(--accent);">Open Log</a>
+            </div>
+
+            <!-- Project Board -->
+            <div class="card" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), transparent);">
+                <div class="card-header">
+                    <div class="card-icon">📊</div>
+                </div>
+                <h3>Project Board</h3>
+                <p>Real-time, persistent task tracking. View the live Gantt chart and Kanban board on GitHub.</p>
+                <a href="https://github.com/Io-kai/Cebu-Loop-Web/projects" class="btn btn-outline"
+                    style="border-color: #10b981; color: #10b981;">Go to GitHub Projects</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>Cebu Loop Mobility Corp &copy; 2026 | Master Field Manual v5.1</p>
+        </footer>
+    </div>
+
+    <!-- Modal Content -->
+    <div id="md-viewer" class="modal-backdrop">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-title">Document Viewer</div>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="markdown-content" class="prose">
+                    <div style="text-align: center; padding: 2rem; color: var(--text-dim);">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EMBEDDED DOCUMENTS PLACEHOLDERS -->
+    <script id="raw-manual" type="text/markdown">
+# CEBU LOOP MOBILITY CORP: MASTER EXECUTION FIELD MANUAL
+
+**Version:** 5.7 (Ops-Refined)
+**Date:** January 2026
+**Location:** Cebu City
+**Command Center:** Honolulu (Brian) & Cebu (Joy)
+
+---
+
+## 1. BUSINESS MODEL: SELF-DRIVE FIRST
+
+> **STRATEGY**: Launch with **self-drive only** (customer drives, no driver provided). This **eliminates LTFRB franchise requirements** and allows launch in **6-8 weeks**.
+
+| Phase | Model | LTFRB Required? |
+|-------|-------|-----------------|
+| **Launch (Now)** | Self-Drive Only | ❌ NO |
+| **Expansion (Later)** | Add Driver Option | ✅ YES (See Phase 5) |
+
+**Legal Basis**: Self-drive car rentals where customers operate the vehicle for private use are not classified as public utility vehicles (PUVs) and do not require LTFRB franchise.
+
+---
+
+## 2. CAPITAL PRESERVATION STRATEGY
+
+**Objective**: Minimize fixed costs. Only essential infrastructure.
+
+* **Official Business Address**: Virtual Office (₱500-800/month)
+* **Meeting Space**: Virtual office meeting rooms or hotel lobbies
+* **Protocols**:
+  * **NO** Commercial Leasing beyond virtual office until Fleet Acquisition
+  * **NO** Long-term Lease Contracts
+  * **NO** Capital Asset Purchases until Phase 0 is passed
+
+---
+
+## 3. THE REMOTE COMMAND PROTOCOL
+
+### The "Golden Window" (8:00 AM - 2:00 PM Cebu)
+
+| Cebu Time | Hawaii Time | Action |
+| :--- | :--- | :--- |
+| 08:00 AM | 02:00 PM (-1 Day) | Daily Command Sync |
+| 09:00 AM - 12:00 PM | 03:00 PM - 06:00 PM | Field Execution |
+| 12:00 PM - 01:00 PM | 06:00 PM - 07:00 PM | Banking Hour |
+
+---
+
+## 4. THE EXECUTION ROADMAP
+
+### PHASE 0: THE BAG BUILDER (Day 0)
+
+**Goal**: Secure virtual office, verify documents, gather assets.
+
+#### Step 1: Buy Supplies
+
+* **[ ] Action: Buy Logistics** (Envelopes, Pens, Clips)
+
+#### Step 2A: Verify Pre-Existing Documents
+
+* **[ ] Pre-Flight Document Check**:
+  * Joy's Passport (expiry > 6 months)
+  * Joy's TIN ID (Green Card)
+  * Brian's Passport Scan + Specimen Signature
+  * Utility Bill (< 3 months old)
+
+#### Step 2B: Obtain New Documents
+
+* **[ ] Secure Virtual Office Contract** (₱500-1500/month)
+* **[ ] Professional ID Photos** (10x 1x1, 10x 2x2)
+* **[ ] Community Tax Certificate (Cedula)**
+
+#### Step 2C: Legal Consultation ⚖️
+
+* **[ ] Action: Schedule Attorney Consultation**:
+  * Purpose: Verify self-drive model compliance
+  * Questions to ask:
+    * Confirm no LTFRB needed for self-drive
+    * Review rental contract template
+    * Advise on insurance requirements
+    * Advise on liability waiver language
+  * Budget: ₱3,000-5,000 consultation fee
+
+#### Step 3: Photocopy & Print
+
+* **[ ] Photocopy Personal Docs**: Passport x5, TIN x3
+* **[ ] Print Investor Docs**: Brian Passport x5, Signature Sheet x5
+* **[ ] Print Location Docs**: Virtual Office Contract x3
+
+#### Step 4: Label & Assemble Envelopes (A-D)
+
+---
+
+### PHASE 1: THE LEGAL SHIELD (Week 1)
+
+**Goal**: Legal Entity Creation & Banking.
+
+#### DAY 1: Monday
+
+* **[ ] Action: Register Company Name (SEC ESPARC)**
+* **[ ] Field: Secure Barangay Clearance**
+
+#### DAY 2: Tuesday
+
+* **[ ] Remote: Verify Capital Readiness** (₱625k)
+* **[ ] Field: Open TITF Savings Account (UnionBank)**
+* **[ ] Remote: Wire Paid-Up Capital**
+
+#### DAY 3: Wednesday
+
+* **[ ] Remote: Confirm Wire Receipt** (24-48 hrs)
+* **[ ] Field: Secure Bank Certificate**
+* **[ ] Action: Notarize Treasurer's Affidavit**
+* **[ ] Online: Finalize SEC Application**
+
+#### DAY 5: Friday
+
+* **[ ] Field: Asset Scouting** (BYD Quote + Parking)
+* **[ ] Action: Attorney Consultation** (If not done in Phase 0)
+
+---
+
+### PHASE 2: THE "PAPER HUB" (Weeks 2-4)
+
+**Goal**: Complete business registration.
+
+#### Week 2: SEC Release
+
+* [ ] Monitor email for SEC Payment Assessment
+* [ ] Pay SEC Fees
+* [ ] Receive Certificate of Incorporation
+
+#### Week 3: Licensing
+
+* [ ] **Field: BIR Registration** → COR 2303
+* [ ] **Field: Mayor's Permit** (City Hall)
+* [ ] **Action: Finalize Rental Contract** (with attorney review)
+
+#### Week 4: Corporate Account + Insurance
+
+* [ ] **Field: Bank Conversion** (TITF → Corporate Checking)
+* [ ] **Action: Secure Vehicle Insurance** (See Section 5A for Template)
+* [ ] **Action: Secure Parking/Garage Contract**
+
+---
+
+### PHASE 3: ASSET ACQUISITION (Weeks 5-7)
+
+#### Week 5: Order Fleet
+
+* [ ] Brian wires 20% Downpayment
+* [ ] Joy pays BYD Dealership - Order 5 Units
+* [ ] Order GPS Trackers (Teltonika)
+
+#### Week 6: LTO Registration
+
+* [ ] **Field: Register Vehicles "For Hire"** at LTO
+  * Required for legal car rental operation
+  * Get special "For Hire" plates
+* [ ] Install GPS & IoT Sims
+
+#### Week 7: Pickup & Setup
+
+* [ ] Pickup 5 BYD Seagull Units
+* [ ] Car Wrapping (Branding)
+* [ ] App/Booking System Testing
+
+---
+
+### PHASE 4: LAUNCH (Weeks 8-9) 🚀
+
+* [ ] **Action: Finalize Rental Terms & Waivers**
+* [ ] **Action: Setup Payment Processing** (GCash, Maya, Card)
+* [ ] **Event: SOFT LAUNCH** (Invite-only beta)
+* [ ] **Event: GRAND LAUNCH** (Go Live)
+
+---
+
+### PHASE 5: WITH-DRIVER EXPANSION (Future)
+
+> **Deferred until after successful self-drive launch.**
+
+#### LTFRB Application
+
+* [ ] Compile PA Payload (SEC, BIR, Bank Cert, Garage, Insurance)
+* [ ] Submit PA at LTFRB Region 7 (EVIDA Priority)
+* [ ] Receive Provisional Authority
+
+---
+
+## 5. INSURANCE & ASSETS (Templates)
+
+### A. Insurance Inquiry Email Template
+
+**To**: Malayan, Standard Insurance, Prudential, Mercantile
+**Subject**: RFQ: Comprehensive Insurance for Car Rental Fleet (BYD Seagull)
+
+> Dear [Name/Company],
+>
+> I am writing on behalf of **Cebu Loop Mobility Corp.** We are acquiring a fleet of **5 units of BYD Seagull (2025 Model)** for our self-drive car rental operations in Cebu City.
+>
+> We request a formal quotation for **Comprehensive Motor Vehicle Insurance** with the following inclusion:
+>
+> * **Own Damage & Theft**: Full coverage
+> * **Acts of Nature (AON)**: Inclusion required
+> * **Passenger Personal Accident Insurance (PPAI)**: Minimum ₱200k per seat
+> * **Third Party Liability (CTPL)**: Required
+>
+> Please provide your best fleet rate for 5 units.
+>
+> Regards,
+> Joy
+> Cebu Loop Mobility Corp.
+
+---
+
+## 6. OPERATIONS MANUAL (POST-LAUNCH)
+
+### A. Approval Thresholds
+
+* **>₱10,000**: Brian must approve (Purchase Order Token required)
+* **<₱10,000**: Joy approves (Daily Limit)
+
+### B. Cleaning Protocol (The "No-Damage" Rule)
+
+> **⚠️ WARNING**: Do NOT use Alcohol or Bleach on vehicle interiors (dashboard, leather, buttons). It destroys the UV coating.
+
+1. **Vacuum**: 2 minutes. Floor mats and seats.
+2. **Disinfect (Surface)**: Use **UVC Wand** for 15 seconds over steering wheel, gear shifter, and door handles.
+3. **Wipe (Stains)**: Use **Microfiber Cloth** with:
+    * Mild soapy water (Drop of dish soap in water spray)
+    * OR dedicated "Interior Car Cleaner" (e.g., Microtex)
+    * *Baby Wipes* are acceptable for quick spot cleaning.
+4. **Plug**: Connect AC Charger.
+
+### C. Vehicle Release Protocol
+
+1. **Verify ID**: Check Physical Driver's License (No photo copies).
+2. **Photo Evidence**: Take photo of Client holding License next to car.
+3. **Walkaround**: Record 30-sec video walking around car *with* client, pointing out existing scratches.
+4. **Waiver**: Client signs digital liability waiver.
+
+### D. Emergency Response
+
+* **Accident**:
+    1. Ensure safety. Call 911 if injured.
+    2. Driver must take photos of damage + Third party involved.
+    3. Call Joy immediately. Joy calls Insurance.
+* **Theft**:
+    1. Call Joy.
+    2. Joy tracks GPS position (Teltonika).
+    3. Brian triggers **Remote Engine Kill**.
+
+</script>
+
+    <script id="raw-decisions" type="text/markdown">
+# CRITICAL DECISIONS LOG
+
+**Status**: Open Questions for Founder Review
+**Date**: January 2026
+
+This document tracks high-stakes decisions that require debate or selection between Option A and Option B. These decisions block specific phases of the `MASTER_EXECUTION_FIELD_MANUAL`.
+
+---
+
+## 1. STRATEGY: The "Airport Drain" Solution
+
+**Context**: High demand for Airport -> City trips will leave the Airport hub empty and the City hub full. We need a rebalancing mechanism.
+
+* **Option A: The Reverse Incentive (User-Led)**
+  * *Mechanism*: Offer 50% discount to customers willing to drive City -> Airport.
+  * *Pro*: Zero operational cost.
+  * *Con*: Unreliable. Users fly when they need to, not when we pay them to.
+* **Option B: The Deadhead Run (Staff-Led)**
+  * *Mechanism*: Fleet Runner drives car to Airport, takes Angkas (MotoTaxi) back.
+  * *Pro*: Guaranteed availability.
+  * *Con*: Cost of Angkas fare (~₱150) + Staff time.
+* **Required Decision Date**: Week 11 (Before App Config)
+
+---
+
+## 2. TECHNOLOGY: The Core Platform Vendor
+
+**Context**: We need a white-label rental platform for bookings, payments, and digital keys.
+
+* **Option A: RentCentric**
+  * *Status*: Industry veteran.
+  * *Pro*: Deep feature set, proven API for keyless entry.
+  * *Con*: Older UI, potentially expensive per-vehicle pricing.
+* **Option B: Navotar**
+  * *Status*: Newer challenger.
+  * *Pro*: Mobile-first design, potentially better "modern" feel.
+  * *Con*: Integration with Teltonika hardware for remote unlock needs verification.
+* **Required Decision Date**: Week 5 (See Roadmap)
+
+---
+
+## 3. LEGAL: Regulatory Classification
+
+**Context**: We are operating a chauffeured service ("Rent-a-Car with Driver") but using an App.
+
+* **Option A: Pure "Rent-a-Car" (The Loophole)**
+  * *Mechanism*: Every booking is a "Lease Contract".
+  * *Risk*: If customers perceive it as a Taxi (TNVS), LTFRB may crackdown.
+  * *Defense*: We do not charge per km/minute, we charge per "Block" (Lease).
+* **Option B: TNVS (The "Grab" Route)**
+  * *Mechanism*: Apply for TNC accreditation.
+  * *Risk*: Extremely long timeline, moratoriums, high competition with Grab.
+* **Recommendation**: Stick to Option A (Rental) for Launch.
+
+---
+
+## 4. FINANCE: The "Brian Veto" Threshold
+
+**Context**: Current policy requires Brian's digital approval for any expense > ₱10,000.
+
+* **Question**: Is this too low?
+  * *Scenario*: If a car needs 4 tires (₱15k), Joy visits valid vendor, but Brian is asleep (Hawaii time).
+  * *Risk*: Operations halt for 8 hours.
+  * *Proposal*: Raise auto-approval limit to ₱20,000 for "Emergency Repairs" specifically?
+
+---
+
+## 5. ASSETS: The Typhoon "Safe Haven"
+
+**Context**: We need a high-ground parking garage during Signal No. 1.
+
+* **Option A: Ayala Center Cebu (Level 5+)**
+  * *Pro*: Massive capacity, secure.
+  * *Con*: Public access, paid hourly parking.
+* **Option B: Marco Polo Hotel (Nivel Hills)**
+  * *Pro*: Brian's residence, very high ground (mountain).
+  * *Con*: Limited slots, might annoy HOA if we dump 5 branded cars there.
+
+---
+
+</script>
+
+    <script>
+        const modal = document.getElementById('md-viewer');
+        const contentDiv = document.getElementById('markdown-content');
+        const titleDiv = document.getElementById('modal-title');
+
+        // Map filenames to embedded ID
+        const docMap = {
+            'MASTER_EXECUTION_FIELD_MANUAL.md': 'raw-manual',
+            'CRITICAL_DECISIONS_LOG.md': 'raw-decisions'
+        };
+
+        // Close Modal
+        function closeModal() {
+            modal.classList.remove('active');
+            setTimeout(() => {
+                modal.style.display = 'none';
+                contentDiv.innerHTML = '<div style="text-align: center; padding: 2rem; color: var(--text-dim);">Loading...</div>';
+            }, 300);
+        }
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
+        });
+
+        // Intercept Markdown Links
+        document.querySelectorAll('a').forEach(link => {
+            const href = link.getAttribute('href');
+            const isMd = href && (href.includes('MASTER_EXECUTION_FIELD_MANUAL.md') || href.includes('CRITICAL_DECISIONS_LOG.md'));
+
+            if (isMd) {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    // Show Modal
+                    modal.style.display = 'flex';
+                    modal.offsetHeight; // Force reflow
+                    modal.classList.add('active');
+
+                    const [file, hash] = href.split('#');
+                    titleDiv.textContent = link.innerText || "Document Viewer";
+
+                    // Retrieve Embedded Content
+                    const elementId = docMap[file];
+                    const rawEl = document.getElementById(elementId);
+
+                    if (rawEl && rawEl.textContent.trim().length > 0) {
+                        try {
+                            contentDiv.innerHTML = marked.parse(rawEl.textContent);
+
+                            // Handle Scroll
+                            if (hash) {
+                                setTimeout(() => {
+                                    const element = document.getElementById(hash);
+                                    if (element) {
+                                        element.scrollIntoView();
+                                    } else {
+                                        console.log('Hash not found:', hash);
+                                    }
+                                }, 100);
+                            } else {
+                                contentDiv.closest('.modal-body').scrollTop = 0;
+                            }
+                        } catch (err) {
+                            contentDiv.innerHTML = `<div style="color: #ef4444; padding: 2rem;">Error parsing markdown: ${err.message}</div>`;
+                        }
+                    } else {
+                        contentDiv.innerHTML = `<div style="color: #ef4444; padding: 2rem;">
+                            <h3>Content Not Found</h3>
+                            <p>The documentation has not been embedded. Please run the build script.</p>
+                        </div>`;
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

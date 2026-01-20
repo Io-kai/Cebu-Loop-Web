@@ -1,6 +1,6 @@
 # CEBU LOOP MOBILITY CORP: MASTER EXECUTION FIELD MANUAL
 
-**Version:** 5.6 (Self-Drive First)
+**Version:** 5.7 (Ops-Refined)
 **Date:** January 2026
 **Location:** Cebu City
 **Command Center:** Honolulu (Brian) & Cebu (Joy)
@@ -9,7 +9,7 @@
 
 ## 1. BUSINESS MODEL: SELF-DRIVE FIRST
 
-> **STRATEGY**: Launch with **self-drive only** (customer drives, no driver provided). This **eliminates LTFRB franchise requirements** and allows launch in **6-8 weeks** instead of 12-16 weeks.
+> **STRATEGY**: Launch with **self-drive only** (customer drives, no driver provided). This **eliminates LTFRB franchise requirements** and allows launch in **6-8 weeks**.
 
 | Phase | Model | LTFRB Required? |
 |-------|-------|-----------------|
@@ -79,7 +79,6 @@
     * Advise on insurance requirements
     * Advise on liability waiver language
   * Budget: ₱3,000-5,000 consultation fee
-  * Find: Corporate/transport lawyer in Cebu
 
 #### Step 3: Photocopy & Print
 
@@ -139,7 +138,7 @@
 #### Week 4: Corporate Account + Insurance
 
 * [ ] **Field: Bank Conversion** (TITF → Corporate Checking)
-* [ ] **Action: Secure Vehicle Insurance** (Comprehensive + Third-Party)
+* [ ] **Action: Secure Vehicle Insurance** (See Section 5A for Template)
 * [ ] **Action: Secure Parking/Garage Contract**
 
 ---
@@ -178,57 +177,75 @@
 
 ### PHASE 5: WITH-DRIVER EXPANSION (Future)
 
-> **Deferred until after successful self-drive launch.** This phase requires LTFRB Provisional Authority (PA).
-
-#### Prerequisites
-
-* [ ] Profitable self-drive operations
-* [ ] Customer demand for driver option
-* [ ] Hired/contracted drivers
+> **Deferred until after successful self-drive launch.**
 
 #### LTFRB Application
 
 * [ ] Compile PA Payload (SEC, BIR, Bank Cert, Garage, Insurance)
-* [ ] Submit PA at LTFRB Region 7
-* [ ] Mention "EVIDA Law RA 11697" for EV priority
-* [ ] Attend Hearing
+* [ ] Submit PA at LTFRB Region 7 (EVIDA Priority)
 * [ ] Receive Provisional Authority
 
-#### Insurance Upgrade
+---
 
-* [ ] Secure PPAI (Passenger Personal Accident Insurance ₱4M/unit)
+## 5. INSURANCE & ASSETS (Templates)
+
+### A. Insurance Inquiry Email Template
+
+**To**: Malayan, Standard Insurance, Prudential, Mercantile
+**Subject**: RFQ: Comprehensive Insurance for Car Rental Fleet (BYD Seagull)
+
+> Dear [Name/Company],
+>
+> I am writing on behalf of **Cebu Loop Mobility Corp.** We are acquiring a fleet of **5 units of BYD Seagull (2025 Model)** for our self-drive car rental operations in Cebu City.
+>
+> We request a formal quotation for **Comprehensive Motor Vehicle Insurance** with the following inclusion:
+>
+> * **Own Damage & Theft**: Full coverage
+> * **Acts of Nature (AON)**: Inclusion required
+> * **Passenger Personal Accident Insurance (PPAI)**: Minimum ₱200k per seat
+> * **Third Party Liability (CTPL)**: Required
+>
+> Please provide your best fleet rate for 5 units.
+>
+> Regards,
+> Joy
+> Cebu Loop Mobility Corp.
 
 ---
 
-## 5. SELF-DRIVE REQUIREMENTS CHECKLIST
+## 6. OPERATIONS MANUAL (POST-LAUNCH)
 
-| Requirement | Source | Status |
-|-------------|--------|--------|
-| SEC Certificate | SEC | |
-| BIR COR 2303 | BIR | |
-| Mayor's Permit | City Hall | |
-| LTO "For Hire" Registration | LTO | |
-| Comprehensive Vehicle Insurance | Insurance Co | |
-| Rental Contract (Attorney-reviewed) | Lawyer | |
-| Liability Waiver | Lawyer | |
-| GPS Tracking | Teltonika | |
+### A. Approval Thresholds
 
----
+* **>₱10,000**: Brian must approve (Purchase Order Token required)
+* **<₱10,000**: Joy approves (Daily Limit)
 
-## 6. OPERATIONS (POST-LAUNCH)
+### B. Cleaning Protocol (The "No-Damage" Rule)
 
-### Approval Thresholds
+> **⚠️ WARNING**: Do NOT use Alcohol or Bleach on vehicle interiors (dashboard, leather, buttons). It destroys the UV coating.
 
-* **>₱10k**: Brian approves
-* **<₱10k**: Joy approves
+1. **Vacuum**: 2 minutes. Floor mats and seats.
+2. **Disinfect (Surface)**: Use **UVC Wand** for 15 seconds over steering wheel, gear shifter, and door handles.
+3. **Wipe (Stains)**: Use **Microfiber Cloth** with:
+    * Mild soapy water (Drop of dish soap in water spray)
+    * OR dedicated "Interior Car Cleaner" (e.g., Microtex)
+    * *Baby Wipes* are acceptable for quick spot cleaning.
+4. **Plug**: Connect AC Charger.
 
-### Cleaning Protocol
+### C. Vehicle Release Protocol
 
-1. Vac: 2 mins
-2. Wipe: Alcohol
-3. Plug: AC Charge
+1. **Verify ID**: Check Physical Driver's License (No photo copies).
+2. **Photo Evidence**: Take photo of Client holding License next to car.
+3. **Walkaround**: Record 30-sec video walking around car *with* client, pointing out existing scratches.
+4. **Waiver**: Client signs digital liability waiver.
 
-### Emergency
+### D. Emergency Response
 
-* **Typhoon**: Move cars to Ayala Level 5
-* **Theft**: Remote Engine Kill
+* **Accident**:
+    1. Ensure safety. Call 911 if injured.
+    2. Driver must take photos of damage + Third party involved.
+    3. Call Joy immediately. Joy calls Insurance.
+* **Theft**:
+    1. Call Joy.
+    2. Joy tracks GPS position (Teltonika).
+    3. Brian triggers **Remote Engine Kill**.
